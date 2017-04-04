@@ -1,0 +1,22 @@
+DROP TABLE IF EXISTS autobezitters;
+DROP TABLE IF EXISTS OVgebruikers;
+
+CREATE TABLE autobezitters(
+    wijk char(50),
+    Totaal_Autobezit int,
+    Totaal_Zonde_Auto int);
+COPY autobezitters FROM 'C:\Users\Kim Yiu\Desktop\autobezitters.csv' DELIMITER ';' CSV HEADER;
+
+CREATE TABLE OVgebruikers(
+    Wijk char(50),
+    OVgebruik_met_auto int,
+    OVgebruik_zonder_auto int);
+    
+COPY OVgebruikers FROM 'C:\Users\Kim Yiu\Desktop\OV_gebruikers.csv' DELIMITER ';' CSV HEADER;
+
+SELECT autobezitters.wijk, totaal_autobezit, OVgebruik_met_auto, totaal_zonde_auto, OVgebruik_zonder_auto
+FROM autobezitters
+JOIN OVgebruikers ON autobezitters.Wijk = OVgebruikers.Wijk
+ORDER BY autobezitters.wijk;
+
+SELECT * FROM OVgebruikers
