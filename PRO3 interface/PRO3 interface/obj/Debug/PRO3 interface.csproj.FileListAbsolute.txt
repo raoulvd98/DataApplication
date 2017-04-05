@@ -1,0 +1,15 @@
+d:\documenten\visual studio 2015\Projects\PRO3 interface\PRO3 interface\bin\Debug\PRO3 interface.exe.config
+d:\documenten\visual studio 2015\Projects\PRO3 interface\PRO3 interface\bin\Debug\PRO3 interface.exe
+d:\documenten\visual studio 2015\Projects\PRO3 interface\PRO3 interface\bin\Debug\PRO3 interface.pdb
+d:\documenten\visual studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\PRO3 interface.csprojResolveAssemblyReference.cache
+d:\documenten\visual studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\MainWindow.g.cs
+d:\documenten\visual studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\App.g.cs
+d:\documenten\visual studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\PRO3 interface_MarkupCompile.cache
+d:\documenten\visual studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\PRO3 interface_MarkupCompile.lref
+d:\documenten\visual studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\MainWindow.baml
+d:\documenten\visual studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\PRO3 interface.g.resources
+d:\documenten\visual studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\PRO3_interface.Properties.Resources.resources
+d:\documenten\visual studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\PRO3 interface.csproj.GenerateResource.Cache
+d:\documenten\visual studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\PRO3 interface.exe
+d:\documenten\visual studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\PRO3 interface.pdb
+D:\Documenten\Visual Studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\App.baml

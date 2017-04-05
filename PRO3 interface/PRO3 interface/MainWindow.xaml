@@ -1,0 +1,27 @@
+﻿<Window x:Class="PRO3_interface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PRO3_interface"
+        mc:Ignorable="d"
+        Title="DataBus" Width="1920" Height="1080"
+        WindowState="Maximized" WindowStyle="None">
+
+    <Window.Background>
+        <ImageBrush ImageSource="D:\Documenten\HBO Informatica\OP 3\Project\skyline2.jpg"></ImageBrush>
+    </Window.Background>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="Startbutton" Content="Start" Margin="202,182,1530,800" Width="Auto"/>
+        <Button x:Name="Helpbutton" Content="Help" Margin="202,294,1530,688" Width="Auto"/>
+        <Button x:Name="Creditsbutton" Content="Credits" Margin="416,182,1316,800" Width="Auto"/>
+        <Button x:Name="Exitbutton" Content="Exit" Margin="416,294,1316,688" Width="Auto" Click="CloseButton_Click"/>
+
+    </Grid>
+</Window>
