@@ -21,9 +21,9 @@ namespace WpfApplication1
     /// <summary>
     /// Interaction logic for Page2.xaml
     /// </summary>
-    public partial class Page2 : Page
+    public partial class LineOVgebruik : Page
     {
-        public Page2()
+        public LineOVgebruik()
         
         {
             InitializeComponent();
@@ -37,6 +37,7 @@ namespace WpfApplication1
 
         private void showChart()
         {
+
             string ConnectionString = "Server=localhost;Database=project;Uid=root;Pwd=Hallo";
 
             MySqlConnection connection = new MySqlConnection(ConnectionString);

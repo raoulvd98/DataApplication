@@ -59,15 +59,26 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Page2.xaml.cs">
-      <DependentUpon>Page2.xaml</DependentUpon>
+    <Compile Include="BarAutobezit.xaml.cs">
+      <DependentUpon>BarAutobezit.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Page3.xaml.cs">
-      <DependentUpon>Page3.xaml</DependentUpon>
+    <Compile Include="LineAutobezit.xaml.cs">
+      <DependentUpon>LineAutobezit.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Window2.xaml.cs">
-      <DependentUpon>Window2.xaml</DependentUpon>
+    <Compile Include="LineOVgebruik.xaml.cs">
+      <DependentUpon>LineOVgebruik.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BarOVgebruik.xaml.cs">
+      <DependentUpon>BarOVgebruik.xaml</DependentUpon>
+    </Compile>
+    <Page Include="BarAutobezit.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="LineAutobezit.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -80,15 +91,11 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Page2.xaml">
+    <Page Include="LineOVgebruik.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Page3.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Window2.xaml">
+    <Page Include="BarOVgebruik.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

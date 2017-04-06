@@ -21,6 +21,9 @@ namespace WpfApplication1
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// 
+
+
     public partial class MainWindow : Window
     {
 
@@ -31,18 +34,30 @@ namespace WpfApplication1
 
         }
 
+        
+
 
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            if (checkBox.IsChecked == false)
+            if ((checkBox.IsChecked == false) && (OVgebruik.IsChecked == true))
             {
-                Main.Content = new Page2();
+                Main.Content = new LineOVgebruik();
             }
 
-            else
+            else if ((checkBox.IsChecked == true) && (OVgebruik.IsChecked == true))
             {
-                Main.Content = new Page3();
+                Main.Content = new BarOVgebruik();
+            }
+
+            if ((checkBox.IsChecked == false) && (Autobezit.IsChecked == true))
+            {
+                Main.Content = new LineAutobezit();
+            }
+
+            else if ((checkBox.IsChecked == true) && (Autobezit.IsChecked == true))
+            {
+                Main.Content = new BarAutobezit();
             }
         }
     }

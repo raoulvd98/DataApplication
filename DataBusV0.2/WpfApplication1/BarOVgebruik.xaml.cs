@@ -21,9 +21,9 @@ namespace WpfApplication1
     /// <summary>
     /// Interaction logic for Page2.xaml
     /// </summary>
-    public partial class Page3: Page
+    public partial class BarOVgebruik: Page
     {
-        public Page3()
+        public BarOVgebruik()
 
         {
             InitializeComponent();
