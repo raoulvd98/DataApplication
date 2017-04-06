@@ -8,7 +8,7 @@
         Title="DataBus" Width="1920" Height="1080">
 
     <Page.Background>
-        <ImageBrush ImageSource="D:\Documenten\HBO Informatica\OP 3\Project\skyline2.jpg"></ImageBrush>
+        <ImageBrush ImageSource="D:\Documenten\HBO Informatica\OP 3\Project\Rotterdam-2.jpg"></ImageBrush>
     </Page.Background>
 
     <Grid>
@@ -17,21 +17,20 @@
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock x:Name="Titlebar" Text="DataBus" Margin="182,95,1317,839" Foreground="White" FontFamily="Times New Roman" FontSize="120" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="Titlebar" Text="DataBus" Margin="78,108,1428,834" Foreground="White" FontFamily="Times New Roman" FontSize="120" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-        <Button x:Name="Startbutton" FontSize="40" Margin="182,755,1550,227" Width="Auto" Click="StartButton_Click">
+        <Button x:Name="Startbutton" FontSize="40" Margin="78,758,1532,208" Width="Auto" Click="StartButton_Click">
             <TextBlock Text="Start" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Button>
-        <Button x:Name="Creditsbutton" Margin="182,867,1550,115" Width="Auto" Click="CreditsButton_Click">
+        <Button x:Name="Creditsbutton" Margin="78,898,1532,68" Width="Auto" Click="CreditsButton_Click">
             <TextBlock Text="Credits" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Button>
-        <Button x:Name="Helpbutton" Margin="396,755,1336,227" Width="Auto" Click="HelpButton_Click">
+        <Button x:Name="Helpbutton" Margin="414,758,1196,208" Width="Auto" Click="HelpButton_Click">
             <TextBlock Text="Help" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Button>
-        <Button x:Name="Exitbutton" Margin="396,867,1336,115" Width="Auto" Click="ExitButton_Click">
+        <Button x:Name="Exitbutton" Margin="414,898,1196,68" Width="Auto" Click="ExitButton_Click">
             <TextBlock Text="Exit" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Button>
-        
         <Frame x:Name="Main"/>
     </Grid>
 </Page>

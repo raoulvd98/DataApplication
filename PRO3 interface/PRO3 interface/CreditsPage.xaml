@@ -8,21 +8,26 @@
       Title="DataBus" Width="1920" Height="1080">
 
     <Page.Background>
-        <ImageBrush ImageSource="D:\Documenten\HBO Informatica\OP 3\Project\skyline2.jpg"></ImageBrush>
+        <ImageBrush ImageSource="D:\Documenten\HBO Informatica\OP 3\Project\Rotterdam-2.jpg"></ImageBrush>
     </Page.Background>
 
     <Grid>
-        <TextBlock x:Name="Titlebar" Text="Credits" Margin="182,95,1317,839" Foreground="White" FontFamily="Times New Roman" FontSize="120" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="Titlebar" Text="Credits" Margin="78,108,1472,834" Foreground="White" FontFamily="Times New Roman" FontSize="120" HorizontalAlignment="Center" VerticalAlignment="Center" Width="370"/>
 
-        <TextBlock x:Name="CreditTitle" Text="Development Credits" Margin="1246,201,332,833" Foreground="Yellow" FontFamily="Times New Roman" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="DevCredits"  Text="Development Credits"                              Margin="1165,692,297,330"   Foreground="White" FontFamily="Times New Roman" FontWeight="UltraBold" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Center" Width="458"/>
 
-        <Button x:Name="BackToMenubutton" Margin="182,755,1428,227" Width="Auto" Click="BackToMenuButton_Click">
+        <TextBlock x:Name="Simon"       Text="Simon de Bakker     Programmer/Designer"          Margin="1084,778,190,261" Foreground="White" FontFamily="Times New Roman" FontWeight="UltraBold" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" Width="646"/>
+        <TextBlock x:Name="Raoul"       Text="Raoul van Duivenvoorde     Programmer/Designer"   Margin="970,824,190,215" Foreground="White" FontFamily="Times New Roman" FontWeight="UltraBold" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" Width="760"/>
+        <TextBlock x:Name="Kimyiu"      Text="Kimyiu Lui     Programmer/Designer"               Margin="1167,868,190,171" Foreground="White" FontFamily="Times New Roman" FontWeight="UltraBold" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" Width="563"/>
+        <TextBlock x:Name="Jeroen"      Text="Jeroen de Schepper     Programmer/Designer"       Margin="1048,913,190,126" Foreground="White" FontFamily="Times New Roman" FontWeight="UltraBold" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" Width="682"/>
+        <TextBlock x:Name="Jim"         Text="Jim Stam     Programmer/Designer"                 Margin="1197,958,190,81" Foreground="White" FontFamily="Times New Roman" FontWeight="UltraBold" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" Width="533"/>
+
+        <Button x:Name="BackToMenubutton" Margin="78,758,1532,208" Width="Auto" Click="BackToMenuButton_Click">
             <TextBlock Text="Back To Menu" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Button>
-        <Button x:Name="Exitbutton" Margin="182,867,1428,115" Width="Auto" RenderTransformOrigin="0.5,0.5" Click="ExitButton_Click">
+        <Button x:Name="Exitbutton" Margin="78,898,1532,68" Width="Auto" RenderTransformOrigin="0.5,0.5" Click="ExitButton_Click">
             <TextBlock Text="Exit" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Button>
-        
         <Frame x:Name="Main"/>
     </Grid>
 </Page>

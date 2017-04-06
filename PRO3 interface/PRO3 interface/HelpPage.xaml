@@ -8,19 +8,18 @@
       Title="HelpPage" Width="1920" Height="1080">
 
     <Page.Background>
-        <ImageBrush ImageSource="D:\Documenten\HBO Informatica\OP 3\Project\skyline2.jpg"></ImageBrush>
+        <ImageBrush ImageSource="D:\Documenten\HBO Informatica\OP 3\Project\Rotterdam-2.jpg"></ImageBrush>
     </Page.Background>
 
     <Grid>
-        <TextBlock x:Name="Titlebar" Text="Help" Margin="182,95,1317,839" Foreground="White" FontFamily="Times New Roman" FontSize="120" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="Titlebar" Text="Help" Margin="78,108,1608,834" Foreground="White" FontFamily="Times New Roman" FontSize="120" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-        <Button x:Name="BackToMenubutton" Margin="182,755,1428,227" Width="Auto" Click="BackToMenuButton_Click">
+        <Button x:Name="BackToMenubutton" Margin="78,758,1532,208" Width="Auto" Click="BackToMenuButton_Click">
             <TextBlock Text="Back To Menu" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Button>
-        <Button x:Name="Exitbutton" Margin="182,867,1428,115" Width="Auto" RenderTransformOrigin="0.5,0.5" Click="ExitButton_Click">
+        <Button x:Name="Exitbutton" Margin="78,898,1532,68" Width="Auto" RenderTransformOrigin="0.5,0.5" Click="ExitButton_Click">
             <TextBlock Text="Exit" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Button>
-
         <Frame x:Name="Main"/>
     </Grid>
 </Page>
