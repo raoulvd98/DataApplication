@@ -90,7 +90,6 @@ C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplicati
 C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\WpfApplication1.g.resources
 C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
 C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
-<<<<<<< HEAD
 C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\LineOVgebruik.g.cs
 C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\LineOVgebruik.baml
 C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\BarOVgebruik.g.cs
@@ -99,12 +98,3 @@ C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplicati
 C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\LineAutobezit.g.cs
 C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\BarAutobezit.baml
 C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\LineAutobezit.baml
-=======
-C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\Page3.g.cs
-C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\Page3.baml
-\\fileserver\homedir$\raoul\Desktop\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\Page3.g.cs
-\\fileserver\homedir$\raoul\Desktop\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\Page3.baml
-\\fileserver\homedir$\raoul\Desktop\DATA\DataBusV0.2\WpfApplication1\bin\Debug\WpfApplication1.exe.config
-\\fileserver\homedir$\raoul\Desktop\DATA\DataBusV0.2\WpfApplication1\obj\Debug\WpfApplication1.exe
-\\fileserver\homedir$\raoul\Desktop\DATA\DataBusV0.2\WpfApplication1\obj\Debug\WpfApplication1.pdb
->>>>>>> origin/master

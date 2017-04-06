@@ -27,11 +27,7 @@ namespace WpfApplication1
         
         {
             InitializeComponent();
-            showChart();
-
-            
-
-           
+            showChart();       
                
         }
 
@@ -48,6 +44,7 @@ namespace WpfApplication1
 
             MySqlDataReader reader = cmd.ExecuteReader();
             List<KeyValuePair<string, int>> MyValue = new List<KeyValuePair<string, int>>();
+            List<KeyValuePair<string, int>> MyValue2 = new List<KeyValuePair<string, int>>();
             while (reader.Read())
             {
 
@@ -58,9 +55,11 @@ namespace WpfApplication1
 
 
                 MyValue.Add(new KeyValuePair<string, int>(Wijk, Bezit_Auto));
+                MyValue2.Add(new KeyValuePair<string, int>(Wijk, Bezit_Geen_Auto));
 
             }
-            LineChart1.DataContext = MyValue;
+            Mensen_Met_Auto.DataContext = MyValue;
+            Mensen_Zonder_Auto.DataContext = MyValue2;
 
         }
 

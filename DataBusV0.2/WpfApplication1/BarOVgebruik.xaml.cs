@@ -37,7 +37,7 @@ namespace WpfApplication1
 
         private void showChart()
         {
-            string ConnectionString = "Server=localhost;Database=project-3;Uid=root;Pwd=**";
+            string ConnectionString = "Server=localhost;Database=project;Uid=root;Pwd=Hallo";
 
             MySqlConnection connection = new MySqlConnection(ConnectionString);
 
@@ -61,8 +61,8 @@ namespace WpfApplication1
                 MyValue2.Add(new KeyValuePair<string, int>(Wijk, Bezit_Geen_Auto));
 
             }
-            Mensen_met_Auto.DataContext = MyValue;
-            Mensen_zonder_Auto.DataContext = MyValue2;
+            Mensen_Met_Auto.DataContext = MyValue;
+            Mensen_Zonder_Auto.DataContext = MyValue2;
 
         }
 

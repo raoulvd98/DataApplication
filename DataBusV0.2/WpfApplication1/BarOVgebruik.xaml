@@ -10,7 +10,11 @@
 
     <Grid>
         <chartingToolkit:Chart  Name="BarChart1" Title="% mensen die het ov gebruiken terwijl ze een auto hebben" Width="1160" Height="580" Margin="-80,51,0,1289">
-            <chartingToolkit:BarSeries  DependentValuePath="Value"
+            <chartingToolkit:BarSeries x:Name="Mensen_Met_Auto"  DependentValuePath="Value"
+            IndependentValuePath="Key" ItemsSource="{Binding}"
+            IsSelectionEnabled="True" Margin="0,0,1.4,0"/>
+
+            <chartingToolkit:BarSeries x:Name="Mensen_Zonder_Auto"  DependentValuePath="Value"
             IndependentValuePath="Key" ItemsSource="{Binding}"
             IsSelectionEnabled="True" Margin="0,0,1.4,0"/>
         </chartingToolkit:Chart>
