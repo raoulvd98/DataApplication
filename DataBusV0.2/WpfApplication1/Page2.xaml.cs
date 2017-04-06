@@ -31,7 +31,7 @@ namespace WpfApplication1
 
         private void showChart()
         {
-            string ConnectionString = "Server=localhost;Database=project-3;Uid=root;Pwd=f95fa4e4";
+            string ConnectionString = "Server=localhost;Database=project-3;Uid=root;Pwd=****";
 
             MySqlConnection connection = new MySqlConnection(ConnectionString);
 

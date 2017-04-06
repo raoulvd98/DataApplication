@@ -5,11 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="525">
+        Title="MainWindow" Height="1920" Width="1080">
     <Grid>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="230,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="43" RenderTransformOrigin="1.845,2.708"><Run Text="HALLO"/><LineBreak/><Run/></TextBlock>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="565,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="HANS KAZAN"/><LineBreak/><Run/></TextBlock>
-        <Button x:Name="button" Content="Start" HorizontalAlignment="Left" Margin="215,185,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        
+        <Button x:Name="button" Content="Start" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
         <Frame x:Name="Main"/>
     </Grid>
 </Window>

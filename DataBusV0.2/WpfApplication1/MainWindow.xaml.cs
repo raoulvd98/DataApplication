@@ -27,7 +27,7 @@ namespace WpfApplication1
         public MainWindow()
         {
             InitializeComponent();
-            
+            Main.Content = new Page2();
         }
 
 
