@@ -13,3 +13,11 @@ d:\documenten\visual studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debu
 d:\documenten\visual studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\PRO3 interface.exe
 d:\documenten\visual studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\PRO3 interface.pdb
 D:\Documenten\Visual Studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\App.baml
+D:\Documenten\Visual Studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\CreditsPage.g.cs
+D:\Documenten\Visual Studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\CreditsPage.baml
+D:\Documenten\Visual Studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\MainPage.g.cs
+D:\Documenten\Visual Studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\MainPage.baml
+D:\Documenten\Visual Studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\HelpPage.g.cs
+D:\Documenten\Visual Studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\HelpPage.baml
+D:\Documenten\Visual Studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\StartPage.g.cs
+D:\Documenten\Visual Studio 2015\Projects\PRO3 interface\PRO3 interface\obj\Debug\StartPage.baml

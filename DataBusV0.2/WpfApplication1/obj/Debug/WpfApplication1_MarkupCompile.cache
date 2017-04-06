@@ -4,17 +4,26 @@
 winexe
 C#
 .cs
-C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\
+\\fileserver\homedir$\raoul\Desktop\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\
 WpfApplication1
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\App.xaml
 5-806558554
 
 9-1250082517
 17-626783515
 BarAutobezit.xaml;LineAutobezit.xaml;MainWindow.xaml;LineOVgebruik.xaml;BarOVgebruik.xaml;
+=======
+\\fileserver\homedir$\raoul\Desktop\DataApplication-Project-3\DataBusV0.2\WpfApplication1\App.xaml
+4-897836079
+
+8-1156462882
+17714260390
+MainWindow.xaml;Page2.xaml;Page3.xaml;Window2.xaml;
+>>>>>>> origin/master
 
 False
 

@@ -1,0 +1,28 @@
+﻿<Page x:Class="PRO3_interface.CreditsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PRO3_interface"
+      mc:Ignorable="d"
+      Title="DataBus" Width="1920" Height="1080">
+
+    <Page.Background>
+        <ImageBrush ImageSource="D:\Documenten\HBO Informatica\OP 3\Project\skyline2.jpg"></ImageBrush>
+    </Page.Background>
+
+    <Grid>
+        <TextBlock x:Name="Titlebar" Text="Credits" Margin="182,95,1317,839" Foreground="White" FontFamily="Times New Roman" FontSize="120" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <TextBlock x:Name="CreditTitle" Text="Development Credits" Margin="1246,201,332,833" Foreground="Yellow" FontFamily="Times New Roman" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Button x:Name="BackToMenubutton" Margin="182,755,1428,227" Width="Auto" Click="BackToMenuButton_Click">
+            <TextBlock Text="Back To Menu" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Button>
+        <Button x:Name="Exitbutton" Margin="182,867,1428,115" Width="Auto" RenderTransformOrigin="0.5,0.5" Click="ExitButton_Click">
+            <TextBlock Text="Exit" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Button>
+        
+        <Frame x:Name="Main"/>
+    </Grid>
+</Page>

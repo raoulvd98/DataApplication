@@ -40,6 +40,7 @@ namespace WpfApplication1
 
             string ConnectionString = "Server=localhost;Database=project;Uid=root;Pwd=Hallo";
 
+
             MySqlConnection connection = new MySqlConnection(ConnectionString);
 
             MySqlCommand cmd = new MySqlCommand("SELECT * FROM ovgebruik", connection);
@@ -48,6 +49,7 @@ namespace WpfApplication1
 
             MySqlDataReader reader = cmd.ExecuteReader();
             List<KeyValuePair<string, int>> MyValue = new List<KeyValuePair<string, int>>();
+            List<KeyValuePair<string, int>> MyValue2 = new List<KeyValuePair<string, int>>();
             while (reader.Read())
             {
 
@@ -55,14 +57,14 @@ namespace WpfApplication1
                 string Wijk = reader.GetString(0);
                 int Bezit_Auto = reader.GetInt32(1);
                 int Bezit_Geen_Auto = reader.GetInt32(2);
-
-
+                
                 MyValue.Add(new KeyValuePair<string, int>(Wijk, Bezit_Auto));
-
+                MyValue2.Add(new KeyValuePair<string, int>(Wijk, Bezit_Geen_Auto));
             }
-            LineChart1.DataContext = MyValue;
+            Mensen_met_Auto.DataContext = MyValue;
+            Mensen_zonder_Auto.DataContext = MyValue2;
 
-        }
+        } 
 
     }
 }

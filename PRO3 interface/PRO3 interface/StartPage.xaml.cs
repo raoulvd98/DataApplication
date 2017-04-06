@@ -16,14 +16,24 @@ using System.Windows.Shapes;
 namespace PRO3_interface
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for StartPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class StartPage : Page
     {
-        public MainWindow()
+        public StartPage()
         {
             InitializeComponent();
+        }
+
+        private void BackToMenuButton_Click(object sender, RoutedEventArgs e)
+        {
             Main.Content = new MainPage();
+        }
+
+        private void ExitButton_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.ShutdownMode = ShutdownMode.OnExplicitShutdown;
+            Application.Current.Shutdown();
         }
     }
 }

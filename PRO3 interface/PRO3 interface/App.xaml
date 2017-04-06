@@ -11,6 +11,7 @@
             <GradientStop Color="DarkCyan" Offset="1"/>
 
         </LinearGradientBrush>
+        
         <Style TargetType="{x:Type Button}">
             <Setter Property="Background" Value="{StaticResource GrayBlueGardientBrush}"/>
             <Setter Property="Width" Value="80"/>
@@ -24,11 +25,11 @@
                                         VerticalAlignment="Stretch" Stroke="Transparent"    
                                         StrokeThickness="20"    
                                         Fill="{TemplateBinding Background}"    
-                                        RadiusX="20" RadiusY="20"   />
+                                        RadiusX="20" RadiusY="20"/>
                             <DockPanel Name="myContentPresenterDockPanel">
                                 <ContentPresenter x:Name="myContentPresenter" Margin="20"    
                                         Content="{TemplateBinding  Content}"    
-                                        TextBlock.Foreground="Black" />
+                                        TextBlock.Foreground="Black"/>
                             </DockPanel>
                         </Grid>
                     </ControlTemplate>
