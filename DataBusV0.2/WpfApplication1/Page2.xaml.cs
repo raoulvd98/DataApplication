@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using MySql.Data.MySqlClient;
 using MySql.Data;
+using System.Data;
 
 namespace WpfApplication1
 {
@@ -30,35 +31,28 @@ namespace WpfApplication1
 
         private void showChart()
         {
-            string ConnectionString = "Server=localhost;Database=project;Uid=root;Pwd=Hallo";
+            string ConnectionString = "Server=localhost;Database=project-3;Uid=root;Pwd=f95fa4e4";
 
             MySqlConnection connection = new MySqlConnection(ConnectionString);
 
-            MySqlCommand cmd = new MySqlCommand("SELECT * FROM ov", connection);
+            MySqlCommand cmd = new MySqlCommand("SELECT * FROM ovgebruik", connection);
 
+            connection.Open();
 
-                
-                connection.Open();
             MySqlDataReader reader = cmd.ExecuteReader();
-            reader.Read();
-                string wijk = reader.GetString(0);
-                int mensen_met_auto = reader.GetInt32(1);
-
-            Console.WriteLine(mensen_met_auto);
-            
-
-
-
-
-
-
-
             List<KeyValuePair<string, int>> MyValue = new List<KeyValuePair<string, int>>();
-            MyValue.Add(new KeyValuePair<string, int>("MENSEN MET AUTO", mensen_met_auto));
-            MyValue.Add(new KeyValuePair<string, int>("Management", 36));
-            MyValue.Add(new KeyValuePair<string, int>("Development", 89));
-            MyValue.Add(new KeyValuePair<string, int>("Support", 270));
-            MyValue.Add(new KeyValuePair<string, int>("Sales", 140));
+            while (reader.Read())
+            {
+
+
+                string Wijk = reader.GetString(0);
+                int Bezit_Auto = reader.GetInt32(1);
+                int Bezit_Geen_Auto = reader.GetInt32(2);
+
+
+                MyValue.Add(new KeyValuePair<string, int>(Wijk, Bezit_Auto));
+
+            }
             LineChart1.DataContext = MyValue;
 
         }
