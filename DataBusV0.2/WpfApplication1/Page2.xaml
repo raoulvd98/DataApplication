@@ -9,8 +9,11 @@
       Title="Page2" Height="1920" Width="1080">
 
     <Grid>
-        <chartingToolkit:Chart  Name="LineChart1" Title="% mensen die het ov gebruiken terwijl ze een auto hebben" Width="1160" Height="580" Margin="-80,51,0,1289">
-            <chartingToolkit:LineSeries  DependentValuePath="Value"
+        <chartingToolkit:Chart  Name="LineChart1" Title="OV gebruik mensen met/zonder auto" Width="1160" Height="580" Margin="-80,51,0,1289">
+            <chartingToolkit:LineSeries x:Name="Mensen_met_Auto" DependentValuePath="Value"
+            IndependentValuePath="Key" ItemsSource="{Binding}"
+            IsSelectionEnabled="True" Margin="0,0,1.4,0"/>
+            <chartingToolkit:LineSeries x:Name="Mensen_zonder_Auto"  DependentValuePath="Value"
             IndependentValuePath="Key" ItemsSource="{Binding}"
             IsSelectionEnabled="True" Margin="0,0,1.4,0"/>
         </chartingToolkit:Chart>
