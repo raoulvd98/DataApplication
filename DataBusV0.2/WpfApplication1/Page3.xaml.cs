@@ -21,18 +21,18 @@ namespace WpfApplication1
     /// <summary>
     /// Interaction logic for Page2.xaml
     /// </summary>
-    public partial class Page2 : Page
+    public partial class Page3: Page
     {
-        public Page2()
-        
+        public Page3()
+
         {
             InitializeComponent();
             showChart();
 
-            
 
-           
-               
+
+
+
         }
 
         private void showChart()
@@ -59,7 +59,7 @@ namespace WpfApplication1
                 MyValue.Add(new KeyValuePair<string, int>(Wijk, Bezit_Auto));
 
             }
-            LineChart1.DataContext = MyValue;
+            BarChart1.DataContext = MyValue;
 
         }
 

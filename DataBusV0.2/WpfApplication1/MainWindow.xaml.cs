@@ -27,14 +27,23 @@ namespace WpfApplication1
         public MainWindow()
         {
             InitializeComponent();
-            Main.Content = new Page2();
+
+
         }
 
 
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            Main.Content = new Page2();
+            if (checkBox.IsChecked == false)
+            {
+                Main.Content = new Page2();
+            }
+
+            else
+            {
+                Main.Content = new Page3();
+            }
         }
     }
 }
