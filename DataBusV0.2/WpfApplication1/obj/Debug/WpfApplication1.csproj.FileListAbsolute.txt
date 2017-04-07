@@ -98,3 +98,13 @@ C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplicati
 C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\LineAutobezit.g.cs
 C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\BarAutobezit.baml
 C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\LineAutobezit.baml
+C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\CreditsPage.g.cs
+C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\HelpPage.g.cs
+C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\MainPage.g.cs
+C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\StartPage.g.cs
+C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\CreditsPage.baml
+C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\HelpPage.baml
+C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\MainPage.baml
+C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\StartPage.baml
+C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\MainApp.g.cs
+C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\MainApp.baml

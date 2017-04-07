@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\App.xaml
-5-806558554
+10-1915324907
 
-131559375775
+18-1615074083
 17-626783515
-BarAutobezit.xaml;LineAutobezit.xaml;MainWindow.xaml;LineOVgebruik.xaml;BarOVgebruik.xaml;
+BarAutobezit.xaml;CreditsPage.xaml;HelpPage.xaml;LineAutobezit.xaml;MainPage.xaml;MainApp.xaml;LineOVgebruik.xaml;BarOVgebruik.xaml;MainWindow.xaml;StartPage.xaml;
 
-True
+False
 

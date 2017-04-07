@@ -16,17 +16,24 @@ using System.Windows.Shapes;
 namespace WpfApplication1
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for HelpPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class HelpPage : Page
     {
-
-
-        public MainWindow()
+        public HelpPage()
         {
             InitializeComponent();
+        }
+
+        private void BackToMenuButton_Click(object sender, RoutedEventArgs e)
+        {
             Main.Content = new MainPage();
         }
 
+        private void ExitButton_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.ShutdownMode = ShutdownMode.OnExplicitShutdown;
+            Application.Current.Shutdown();
+        }
     }
 }
