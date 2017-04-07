@@ -1,13 +1,13 @@
-wijken;bus;tram;metro;totaal
-stadscentrum;27;31;9;67
-Delfshaven;42;17;2;61
-Overschie;32;0;0;32
-Kralingen-Crooswijk;30;28;3;61
-Noord;16;18;1;35
-Hillegersberg-Schiebroek;43;16;2;61
-Prins Alexander;56;0;10;66
-Feijenoord;49;12;2;63
-Ijsselmonde;38;12;0;50
-Charlois;35;10;3;48
-Hoogvliet/Pernis;39;0;4;43
-Hoek van Holland;13;0;0;13
+wijken;bus;tram;metro;totaal;%
+stadscentrum;27;31;9;67;11
+Delfshaven;42;17;2;61;10
+Overschie;32;0;0;32;5
+Kralingen-Crooswijk;30;28;3;61;10
+Noord;16;18;1;35;6
+Hillegersberg-Schiebroek;43;16;2;61;10
+Prins Alexander;56;0;10;66;11
+Feijenoord;49;12;2;63;11
+Ijsselmonde;38;12;0;50;8
+Charlois;35;10;3;48;8
+Hoogvliet/Pernis;39;0;4;43;7
+Hoek van Holland;13;0;0;13;2
