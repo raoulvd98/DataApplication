@@ -8,7 +8,7 @@
       Title="HelpPage" Width="1920" Height="1080">
 
     <Page.Background>
-        <ImageBrush ImageSource="D:\Documenten\HBO Informatica\OP 3\Project\Rotterdam-2.jpg"></ImageBrush>
+        <ImageBrush ImageSource="D:\Documenten\GitHub\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Rotterdam-2.jpg"></ImageBrush>
     </Page.Background>
 
     <Grid>
