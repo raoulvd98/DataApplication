@@ -15,7 +15,8 @@
             <CheckBox x:Name="checkBox" Content="BarChart" HorizontalAlignment="Left" Margin="112,30,0,0" VerticalAlignment="Top"/>
             <RadioButton x:Name="OVgebruik" Content="OVgebruik" HorizontalAlignment="Left" Margin="206,30,0,0" VerticalAlignment="Top"/>
             <RadioButton x:Name="Autobezit" Content="Autobezit" HorizontalAlignment="Left" Margin="306,30,0,0" VerticalAlignment="Top"/>
-            
+            <RadioButton x:Name="Haltes" Content="Haltes" HorizontalAlignment="Left" Margin="406,30,0,0" VerticalAlignment="Top"/>
+    
         </Grid>
     
 </Window>

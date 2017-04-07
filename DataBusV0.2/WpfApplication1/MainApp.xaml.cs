@@ -55,6 +55,17 @@ namespace WpfApplication1
             {
                 Main.Content = new BarAutobezit();
             }
+
+            else if ((checkBox.IsChecked == false) && (Haltes.IsChecked == true))
+            {
+                Main.Content = new LineHaltes();
+            }
+
+            else if ((checkBox.IsChecked == true) && (Haltes.IsChecked == true))
+            {
+                Main.Content = new BarHaltes();
+            }
+
         }
     }
 }

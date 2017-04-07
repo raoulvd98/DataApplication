@@ -62,8 +62,14 @@
     <Compile Include="BarAutobezit.xaml.cs">
       <DependentUpon>BarAutobezit.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BarHaltes.xaml.cs">
+      <DependentUpon>BarHaltes.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CreditsPage.xaml.cs">
       <DependentUpon>CreditsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LineHaltes.xaml.cs">
+      <DependentUpon>LineHaltes.xaml</DependentUpon>
     </Compile>
     <Compile Include="HelpPage.xaml.cs">
       <DependentUpon>HelpPage.xaml</DependentUpon>
@@ -87,9 +93,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="BarHaltes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="CreditsPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="LineHaltes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="HelpPage.xaml">
       <Generator>MSBuild:Compile</Generator>
