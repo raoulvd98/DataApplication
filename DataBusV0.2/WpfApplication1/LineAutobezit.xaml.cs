@@ -42,7 +42,7 @@ namespace WpfApplication1
 
             MySqlConnection connection = new MySqlConnection(ConnectionString);
 
-            MySqlCommand cmd = new MySqlCommand("SELECT * FROM ovgebruik", connection);
+            MySqlCommand cmd = new MySqlCommand("SELECT * FROM autobezit", connection);
 
             connection.Open();
 

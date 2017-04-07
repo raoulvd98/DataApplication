@@ -6,13 +6,13 @@
       xmlns:local="clr-namespace:WpfApplication1"
       xmlns:chartingToolkit="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit" x:Class="WpfApplication1.LineAutobezit"
       mc:Ignorable="d"
-      Title="Page2" Height="1920" Width="1080">
+      Title="LineAutobezit" Height="1920" Width="1080">
 
     <Grid>
-        <chartingToolkit:Chart  Name="LineChart1" Title="% mensen die het ov gebruiken terwijl ze een auto hebben" Width="1160" Height="580" Margin="-80,51,0,1289">
+        <chartingToolkit:Chart  Name="LineChart1" Title="% Inwoners die een auto bezit" Width="1160" Height="580" Margin="-80,51,0,1289">
             <chartingToolkit:LineSeries  DependentValuePath="Value"
             IndependentValuePath="Key" ItemsSource="{Binding}"
-            IsSelectionEnabled="True" Margin="0,0,1.4,0"/>
+            IsSelectionEnabled="True" Margin="0,0,1.4,0" Title="Bezit auto"/>
         </chartingToolkit:Chart>
         
         <Frame x:Name="Main"/>
