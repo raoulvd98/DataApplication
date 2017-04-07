@@ -8,14 +8,10 @@
         Title="DataBus" Width="1920" Height="1080">
 
     <Page.Background>
-        <ImageBrush ImageSource="D:\Documenten\GitHub\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Rotterdam-2.jpg"></ImageBrush>
+        <ImageBrush ImageSource="C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Rotterdam-2.jpg"></ImageBrush>
     </Page.Background>
-
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition Width="0*"/>
-        </Grid.ColumnDefinitions>
+    
+        <Grid>
 
         <TextBlock x:Name="Titlebar" Text="DataBus" Margin="78,108,1428,834" Foreground="White" FontFamily="Times New Roman" FontSize="120" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
@@ -33,4 +29,5 @@
         </Button>
         <Frame x:Name="Main"/>
     </Grid>
+        
 </Page>

@@ -7,8 +7,8 @@
       xmlns:chartingToolkit="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit" x:Class="WpfApplication1.LineOVgebruik"
       mc:Ignorable="d"
       Title="LineOVgebruik" Height="1920" Width="1080">
-
-    <Grid>
+    
+        <Grid>
         <chartingToolkit:Chart  Name="LineChart1" Title="% Inwoners die het OV gebruikt" Width="1160" Height="580" Margin="-80,51,0,1289">
             <chartingToolkit:LineSeries x:Name="Mensen_Met_Auto"  DependentValuePath="Value"
             IndependentValuePath="Key" ItemsSource="{Binding}"
@@ -18,7 +18,12 @@
             IndependentValuePath="Key" ItemsSource="{Binding}"
             IsSelectionEnabled="True" Margin="0,0,1.4,0" Title="Gebruikt OV + bezit geen auto"/>
         </chartingToolkit:Chart>
+
         
+            
+      
+
         <Frame x:Name="Main"/>
     </Grid>
+    
 </Page>
