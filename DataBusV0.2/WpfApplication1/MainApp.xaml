@@ -16,7 +16,8 @@
             <RadioButton x:Name="OVgebruik" Content="OVgebruik" HorizontalAlignment="Left" Margin="206,30,0,0" VerticalAlignment="Top"/>
             <RadioButton x:Name="Autobezit" Content="Autobezit" HorizontalAlignment="Left" Margin="306,30,0,0" VerticalAlignment="Top"/>
             <RadioButton x:Name="Haltes" Content="Haltes" HorizontalAlignment="Left" Margin="406,30,0,0" VerticalAlignment="Top"/>
-    
-        </Grid>
+        <Button x:Name="button1" Content="Main Menu" HorizontalAlignment="Left" Margin="498,30,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
+
+    </Grid>
     
 </Window>

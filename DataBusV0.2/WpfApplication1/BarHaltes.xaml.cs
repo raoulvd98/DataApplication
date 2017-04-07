@@ -48,18 +48,23 @@ namespace WpfApplication1
 
             MySqlDataReader reader = cmd.ExecuteReader();
             List<KeyValuePair<string, int>> MyValue = new List<KeyValuePair<string, int>>();
+            List<KeyValuePair<string, int>> MyValue2 = new List<KeyValuePair<string, int>>();
             while (reader.Read())
             {
 
 
                 string Wijk = reader.GetString(0);
-                int haltes_count = reader.GetInt32(4);
+                int haltes_count = reader.GetInt32(5);
+                int Totaal_OV_gebruik = reader.GetInt32(6);
 
 
                 MyValue.Add(new KeyValuePair<string, int>(Wijk, haltes_count));
+                MyValue2.Add(new KeyValuePair<string, int>(Wijk, Totaal_OV_gebruik));
 
             }
-            Totalehaltes.DataContext = MyValue;
+            OV.DataContext = MyValue;
+            Haltes.DataContext = MyValue2;
+
 
         }
 
