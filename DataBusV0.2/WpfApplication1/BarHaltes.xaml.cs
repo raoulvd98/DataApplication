@@ -41,29 +41,43 @@ namespace WpfApplication1
             string ConnectionString = "Server=localhost;Database=project;Uid=root;Pwd=Hallo";
 
             MySqlConnection connection = new MySqlConnection(ConnectionString);
-
+            MySqlConnection connection2 = new MySqlConnection(ConnectionString);
             MySqlCommand cmd = new MySqlCommand("SELECT * FROM haltes", connection);
 
             connection.Open();
-
+            connection2.Open();
+            
             MySqlDataReader reader = cmd.ExecuteReader();
-            List<KeyValuePair<string, int>> MyValue = new List<KeyValuePair<string, int>>();
+            List<KeyValuePair<string, float>> MyValue = new List<KeyValuePair<string, float>>();
             List<KeyValuePair<string, int>> MyValue2 = new List<KeyValuePair<string, int>>();
+
+           
+            MySqlCommand cmd2 = new MySqlCommand("SELECT sum(Totaal_Aantal_Haltes) FROM haltes", connection2);
+            MySqlDataReader reader2 = cmd2.ExecuteReader();
             while (reader.Read())
             {
-
+                reader2.Read();
+                int tot_aantal_haltes = reader2.GetInt32(0);
 
                 string Wijk = reader.GetString(0);
-                int haltes_count = reader.GetInt32(5);
-                int Totaal_OV_gebruik = reader.GetInt32(6);
+                int haltes_count = reader.GetInt32(4);
+                int Totaal_OV_gebruik = reader.GetInt32(5);
 
 
-                MyValue.Add(new KeyValuePair<string, int>(Wijk, haltes_count));
+
+                float cnt = (haltes_count * 100 / tot_aantal_haltes);
+
+                Console.WriteLine(Wijk);
+                Console.WriteLine(cnt);
+                Console.WriteLine(tot_aantal_haltes);
+
+
+                MyValue.Add(new KeyValuePair<string, float>(Wijk, cnt));
                 MyValue2.Add(new KeyValuePair<string, int>(Wijk, Totaal_OV_gebruik));
-
             }
-            OV.DataContext = MyValue;
-            Haltes.DataContext = MyValue2;
+
+            OV.DataContext = MyValue2;
+            Haltes.DataContext = MyValue;
 
 
         }
