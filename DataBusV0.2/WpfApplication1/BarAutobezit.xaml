@@ -9,12 +9,12 @@
       Title="BarAutobezit" Height="1920" Width="1080">
 
     <Grid>
-        <chartingToolkit:Chart  Name="BarChart1" Title="% Inwoners die een auto bezit" Width="1160" Height="580" Margin="-80,51,0,1289">
+        <chartingToolkit:Chart  Name="BarChart1" Title="% Inwoners die een auto bezit" Height="580" Margin="10,125,0,1215" Background="White">
             <chartingToolkit:BarSeries  DependentValuePath="Value"
             IndependentValuePath="Key" ItemsSource="{Binding}"
             IsSelectionEnabled="True" Margin="0,0,1.4,0" Title="Bezit auto"/>
         </chartingToolkit:Chart>
-        
+
         <Frame x:Name="Main"/>
     </Grid>
 </Page>

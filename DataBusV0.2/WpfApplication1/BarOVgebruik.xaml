@@ -9,7 +9,7 @@
       Title="BarOVgebruik" Height="1920" Width="1080">
 
     <Grid>
-        <chartingToolkit:Chart  Name="BarChart1" Title="% Inwoners die het OV gebruikt" Width="1160" Height="580" Margin="-80,51,0,1289">
+        <chartingToolkit:Chart  Name="BarChart1" Title="% Inwoners die het OV gebruikt" Height="580" Margin="10,125,0,1215" Background="White">
             <chartingToolkit:BarSeries x:Name="Mensen_Met_Auto"  DependentValuePath="Value"
             IndependentValuePath="Key" ItemsSource="{Binding}"
             IsSelectionEnabled="True" Margin="0,0,1.4,0" Title="Gebruikt OV + bezit auto"/>
@@ -18,7 +18,7 @@
             IndependentValuePath="Key" ItemsSource="{Binding}"
             IsSelectionEnabled="True" Margin="0,0,1.4,0" Title="Gebruikt OV + bezit geen auto"/>
         </chartingToolkit:Chart>
-        
+
         <Frame x:Name="Main"/>
     </Grid>
 </Page>

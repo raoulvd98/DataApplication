@@ -9,7 +9,7 @@
       Title="Haltes" Height="1920" Width="1080">
 
     <Grid>
-        <chartingToolkit:Chart  Name="Totalehaltes" Title="%Aantal Haltes - OV gebruik" Width="1160" Height="580" Margin="-80,51,0,1289">
+        <chartingToolkit:Chart  Name="Totalehaltes" Title="%Aantal Haltes - OV gebruik" Height="580" Margin="10,125,-10,1217" Background="White">
             <chartingToolkit:BarSeries  x:Name="Haltes" DependentValuePath="Value"
             IndependentValuePath="Key" ItemsSource="{Binding}"
             IsSelectionEnabled="True" Margin="0,0,1.4,0" Title="Aantal_Haltes"/>
