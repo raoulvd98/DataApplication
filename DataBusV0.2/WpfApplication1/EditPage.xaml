@@ -14,14 +14,7 @@
 
         <Grid>
             <TextBlock x:Name="Titlebar" Text="Edit Data" Margin="78,108,1366,831" Foreground="White" FontFamily="Times New Roman" FontSize="120" HorizontalAlignment="Center" VerticalAlignment="Center" Width="476" Height="141"/>
-            <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="562,328,0,0" VerticalAlignment="Top" Width="120" ItemsSource="{Binding}" Foreground="Green">
-                <ComboBox.Background>
-                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
-                        <GradientStop Color="#FFF0F0F0" Offset="0"/>
-                        <GradientStop Color="#FFFC0000" Offset="1"/>
-                    </LinearGradientBrush>
-                </ComboBox.Background>
-
+            <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="207,277,0,0" VerticalAlignment="Top" Width="496" ItemsSource="{Binding}" Foreground="Black" Background="White" Height="54" FontSize="40">
 
             </ComboBox>
 
@@ -32,8 +25,14 @@
             <Button x:Name="Exitbutton" Margin="78,898,1532,68" Width="Auto" RenderTransformOrigin="0.5,0.5" Click="ExitButton_Click">
                 <TextBlock Text="Exit" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Button>
-            <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="765,301,0,0" VerticalAlignment="Top" Width="101" Height="49" Click="PLUS1"/>
-            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="504,334,0,0" TextWrapping="Wrap" Text="Wijk:" VerticalAlignment="Top"/>
+            <Button x:Name="PLUS" HorizontalAlignment="Left" Margin="393,336,0,0" VerticalAlignment="Top" Width="310" Height="114" Click="PLUS1">
+                <TextBlock Text="Plus 1 Halte" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Button>
+            <Button x:Name="MIN" HorizontalAlignment="Left" Margin="78,336,0,0" VerticalAlignment="Top" Width="310" Height="114" Click="MIN1">
+                <TextBlock Text="Min 1 Halte" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Button>
+
+            <TextBlock Text="Wijk:" Margin="78,277,1756,749" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <Frame x:Name="Main"/>
 
         </Grid>

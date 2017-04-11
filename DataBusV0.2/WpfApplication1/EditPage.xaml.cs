@@ -67,6 +67,21 @@ namespace WpfApplication1
             MySqlDataReader reader = cmd.ExecuteReader();
         }
 
+        private void MIN1(object sender, RoutedEventArgs e)
+        {
+            //Console.WriteLine(comboBox.SelectedItem);
+            string add = comboBox.SelectedValue.ToString();
+            Console.WriteLine(add);
+            string ConnectionString = "Server=localhost;Database=project;Uid=root;Pwd=Hallo";
+
+            MySqlConnection connection = new MySqlConnection(ConnectionString);
+
+            MySqlCommand cmd = new MySqlCommand("UPDATE project.haltes SET Totaal_Aantal_Haltes = Totaal_Aantal_Haltes - 1 WHERE Wijk = '" + add + "'", connection);
+
+            connection.Open();
+            MySqlDataReader reader = cmd.ExecuteReader();
+        }
+
         private void BackToMenuButton_Click(object sender, RoutedEventArgs e)
         {
             Main.Content = new MainPage();
