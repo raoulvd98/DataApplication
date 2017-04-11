@@ -1,13 +1,13 @@
-wijken;bus;tram;metro;totaal haltes;% totaal OV gebruik
-stadscentrum;27;31;9;67;19
-Delfshaven;42;17;2;61;19
-Overschie;32;0;0;32;10
-Kralingen-Crooswijk;30;28;3;61;21
-Noord;16;18;1;35;15
-Hillegersberg-Schiebroek;43;16;2;61;14
-Prins Alexander;56;0;10;66;18
-Feijenoord;49;12;2;63;18
-Ijsselmonde;38;12;0;50;13
-Charlois;35;10;3;48;20
-Hoogvliet/Pernis;39;0;4;43;20
-Hoek van Holland;13;0;0;13;7
+wijken;bus;tram;metro;totaal haltes;% totaal haltes;% totaal OV gebruik
+stadscentrum;27;31;9;67;11;19
+Delfshaven;42;17;2;61;10;19
+Overschie;32;0;0;32;5;10
+Kralingen-Crooswijk;30;28;3;61;10;21
+Noord;16;18;1;35;6;15
+Hillegersberg-Schiebroek;43;16;2;61;10;14
+Prins Alexander;56;0;10;66;11;18
+Feijenoord;49;12;2;63;11;18
+Ijsselmonde;38;12;0;50;8;13
+Charlois;35;10;3;48;8;20
+Hoogvliet/Pernis;39;0;4;43;7;20
+Hoek van Holland;13;0;0;13;2;7

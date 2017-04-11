@@ -16,18 +16,18 @@ using System.Windows.Shapes;
 namespace WpfApplication1
 {
     /// <summary>
-    /// Interaction logic for HelpPage.xaml
+    /// Interaction logic for HelpPage3.xaml
     /// </summary>
-    public partial class HelpPage : Page
+    public partial class HelpPage3 : Page
     {
-        public HelpPage()
+        public HelpPage3()
         {
             InitializeComponent();
         }
 
         private void BackToMenuButton_Click(object sender, RoutedEventArgs e)
         {
-            Help1.Content = new MainPage();
+            Help3.Content = new MainPage();
         }
 
         private void ExitButton_Click(object sender, RoutedEventArgs e)
@@ -36,9 +36,9 @@ namespace WpfApplication1
             Application.Current.Shutdown();
         }
 
-        private void Button_Click_Next(object sender, RoutedEventArgs e)
+        private void Button_Click_Back(object sender, RoutedEventArgs e)
         {
-            Help1.Content = new HelpPage2();
+            Help3.Content = new HelpPage2();
         }
     }
 }
