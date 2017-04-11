@@ -30,6 +30,9 @@
             <Button x:Name="Edit" Margin="414,898,1196.2,68" Width="Auto" Click="EditButton_Click">
                 <TextBlock Text="Edit" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Button>
+            <Button x:Name="Kaart" Margin="760,758,850.2,208" Width="Auto" Click="KaartButton_Click">
+                <TextBlock Text="Kaart" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Button>
             <Frame x:Name="Main"/>
         </Grid>
     </Viewbox>

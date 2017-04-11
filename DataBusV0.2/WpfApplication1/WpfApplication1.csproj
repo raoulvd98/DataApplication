@@ -71,6 +71,9 @@
     <Compile Include="EditPage.xaml.cs">
       <DependentUpon>EditPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="KaartPage.xaml.cs">
+      <DependentUpon>KaartPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LineHaltes.xaml.cs">
       <DependentUpon>LineHaltes.xaml</DependentUpon>
     </Compile>
@@ -105,6 +108,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="EditPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="KaartPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

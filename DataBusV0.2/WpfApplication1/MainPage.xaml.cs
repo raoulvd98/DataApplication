@@ -57,6 +57,10 @@ namespace WpfApplication1
             Main.Content = new EditPage();
         }
 
+        private void KaartButton_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new KaartPage();
+        }
     }
 }
 
