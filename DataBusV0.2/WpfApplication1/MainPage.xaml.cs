@@ -51,6 +51,12 @@ namespace WpfApplication1
             Application.Current.ShutdownMode = ShutdownMode.OnExplicitShutdown;
             Application.Current.Shutdown();
         }
+
+        private void EditButton_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new EditPage();
+        }
+
     }
 }
 

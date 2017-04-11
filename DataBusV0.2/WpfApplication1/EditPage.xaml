@@ -1,0 +1,41 @@
+﻿<Page x:Class="WpfApplication1.EditPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="DataBus" Width="1920" Height="1080">
+
+    <Page.Background>
+        <ImageBrush ImageSource="\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Rotterdam-2.jpg"></ImageBrush>
+    </Page.Background>
+    <Viewbox StretchDirection="Both" Stretch="Uniform">
+
+        <Grid>
+            <TextBlock x:Name="Titlebar" Text="Edit Data" Margin="78,108,1366,831" Foreground="White" FontFamily="Times New Roman" FontSize="120" HorizontalAlignment="Center" VerticalAlignment="Center" Width="476" Height="141"/>
+            <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="562,328,0,0" VerticalAlignment="Top" Width="120" ItemsSource="{Binding}" Foreground="Green">
+                <ComboBox.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                        <GradientStop Color="#FFFC0000" Offset="1"/>
+                    </LinearGradientBrush>
+                </ComboBox.Background>
+
+
+            </ComboBox>
+
+
+            <Button x:Name="BackToMenubutton" Margin="78,758,1532,208" Width="Auto" Click="BackToMenuButton_Click">
+                <TextBlock Text="Back To Menu" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Button>
+            <Button x:Name="Exitbutton" Margin="78,898,1532,68" Width="Auto" RenderTransformOrigin="0.5,0.5" Click="ExitButton_Click">
+                <TextBlock Text="Exit" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Button>
+            <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="765,301,0,0" VerticalAlignment="Top" Width="101" Height="49" Click="PLUS1"/>
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="504,334,0,0" TextWrapping="Wrap" Text="Wijk:" VerticalAlignment="Top"/>
+            <Frame x:Name="Main"/>
+
+        </Grid>
+    </Viewbox>
+</Page>

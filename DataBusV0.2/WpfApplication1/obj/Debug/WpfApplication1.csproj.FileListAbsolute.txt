@@ -153,3 +153,5 @@ C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplicati
 \\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\BarHaltes.g.cs
 \\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\BarHaltes.baml
 \\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\App.baml
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\EditPage.g.cs
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\EditPage.baml

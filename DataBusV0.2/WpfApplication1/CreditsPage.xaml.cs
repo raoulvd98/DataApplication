@@ -35,5 +35,7 @@ namespace WpfApplication1
             Application.Current.ShutdownMode = ShutdownMode.OnExplicitShutdown;
             Application.Current.Shutdown();
         }
+
+
     }
 }

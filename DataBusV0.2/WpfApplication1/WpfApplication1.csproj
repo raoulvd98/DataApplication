@@ -68,6 +68,9 @@
     <Compile Include="CreditsPage.xaml.cs">
       <DependentUpon>CreditsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="EditPage.xaml.cs">
+      <DependentUpon>EditPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LineHaltes.xaml.cs">
       <DependentUpon>LineHaltes.xaml</DependentUpon>
     </Compile>
@@ -100,6 +103,10 @@
     <Page Include="CreditsPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="EditPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="LineHaltes.xaml">
       <SubType>Designer</SubType>
