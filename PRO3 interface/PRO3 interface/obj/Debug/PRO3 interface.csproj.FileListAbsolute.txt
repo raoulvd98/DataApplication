@@ -67,3 +67,26 @@ C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\PRO3 interface\PRO3 inte
 C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\PRO3 interface.csproj.GenerateResource.Cache
 C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\MainWindow.g.cs
 C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\MainWindow.baml
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\bin\Debug\PRO3 interface.exe.config
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\PRO3 interface.exe
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\PRO3 interface.pdb
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\bin\Debug\PRO3 interface.exe
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\bin\Debug\PRO3 interface.pdb
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\PRO3 interface.csprojResolveAssemblyReference.cache
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\CreditsPage.g.cs
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\HelpPage.g.cs
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\MainPage.g.cs
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\MainWindow.g.cs
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\StartPage.g.cs
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\App.g.cs
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\PRO3 interface_MarkupCompile.cache
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\PRO3 interface_MarkupCompile.lref
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\App.baml
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\CreditsPage.baml
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\HelpPage.baml
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\MainPage.baml
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\MainWindow.baml
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\StartPage.baml
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\PRO3 interface.g.resources
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\PRO3_interface.Properties.Resources.resources
+\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Debug\PRO3 interface.csproj.GenerateResource.Cache

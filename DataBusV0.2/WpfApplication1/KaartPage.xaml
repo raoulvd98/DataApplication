@@ -24,8 +24,8 @@
 
 
             <Frame x:Name="Main"/>
-            <Image x:Name="image" HorizontalAlignment="Left" Height="904" Margin="536,108,0,0" VerticalAlignment="Top" Width="1062" 
-                   Source="\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Kaart_wijken_Rotterdam.png"/>
+            <Image x:Name="image" HorizontalAlignment="Left" Margin="536,0,0,66" Width="1062" 
+                   Source="\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Kaart_wijken_Rotterdam.png" Height="906" VerticalAlignment="Bottom"/>
             <Button x:Name="Centrum" Click="CentrumBut" Margin="965,568,0,0" Width="169" RenderTransformOrigin="0.5,0.5" Background="#00000000" Height="82" VerticalAlignment="Top" HorizontalAlignment="Left">
                 <TextBlock Text="Centrum" Margin="0, 0, 0, 0" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Button>

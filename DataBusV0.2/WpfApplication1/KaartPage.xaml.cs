@@ -23,7 +23,8 @@ namespace WpfApplication1
 
         public KaartPage()
         {
-            InitializeComponent();        
+            InitializeComponent();     
+               
         }
 
 

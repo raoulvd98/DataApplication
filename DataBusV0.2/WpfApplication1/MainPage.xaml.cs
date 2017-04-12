@@ -38,7 +38,7 @@ namespace WpfApplication1
 
         private void HelpButton_Click(object sender, RoutedEventArgs e)
         {
-            Main.Content = new HelpPage();
+           // Main.Content = new HelpPage();
         }
 
         private void CreditsButton_Click(object sender, RoutedEventArgs e)
@@ -54,12 +54,12 @@ namespace WpfApplication1
 
         private void EditButton_Click(object sender, RoutedEventArgs e)
         {
-            Main.Content = new EditPage();
+            // Main.Content = new EditPage();
         }
 
         private void KaartButton_Click(object sender, RoutedEventArgs e)
         {
-            Main.Content = new KaartPage();
+            // Main.Content = new KaartPage();
         }
     }
 }
