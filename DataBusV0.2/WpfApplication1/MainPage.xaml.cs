@@ -21,7 +21,8 @@ namespace WpfApplication1
     public partial class MainPage : Page
     {
         MainApp application;
-        KaartWindow application1; 
+        KaartWindow application1;
+        HelpPage application2;
 
 
 
@@ -39,7 +40,8 @@ namespace WpfApplication1
 
         private void HelpButton_Click(object sender, RoutedEventArgs e)
         {
-            Main.Content = new HelpPage();
+            application2 = new WpfApplication1.HelpPage();
+            application2.Show();
         }
 
         private void CreditsButton_Click(object sender, RoutedEventArgs e)

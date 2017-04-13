@@ -9,7 +9,7 @@
         WindowState="Maximized" WindowStyle="None">
 
     <Window.Background>
-        <ImageBrush ImageSource="\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Rotterdam-2.jpg"></ImageBrush>
+        <ImageBrush ImageSource="Rotterdam-2.jpg"></ImageBrush>
     </Window.Background>
 
     <Grid>

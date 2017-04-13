@@ -1,4 +1,4 @@
-wijken;bus;tram;metro;totaal haltes;% totaal OV gebruik
+Wijk;Bus_Haltes;Tram_Haltes;Metro_Haltes;Totaal_Aantal_Haltes;%Ovgebruik
 stadscentrum;27;31;9;67;19
 Delfshaven;42;17;2;61;19
 Overschie;32;0;0;32;10

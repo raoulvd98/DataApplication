@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\
+C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\
 WpfApplication1
 none
 false
 DEBUG;TRACE
-\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\DataBusV0.2\WpfApplication1\App.xaml
-17-322004297
+C:\Users\Jim\Documents\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\App.xaml
+19-547548930
 
-21-756943617
-17714260390
-BarAutobezit.xaml;BarHaltes.xaml;CreditsPage.xaml;DataKaart.xaml;EditPage.xaml;Kaart.xaml;KaartPage.xaml;KaartWindow.xaml;LineHaltes.xaml;HelpPage.xaml;LineAutobezit.xaml;MainPage.xaml;MainApp.xaml;LineOVgebruik.xaml;BarOVgebruik.xaml;MainWindow.xaml;StartPage.xaml;
+23-1094206210
+17-626783515
+BarAutobezit.xaml;BarHaltes.xaml;CreditsPage.xaml;DataKaart.xaml;EditPage.xaml;HelpPage.xaml;HelpPage2.xaml;HelpPage3.xaml;Kaart.xaml;KaartPage.xaml;KaartWindow.xaml;LineHaltes.xaml;LineAutobezit.xaml;MainPage.xaml;MainApp.xaml;LineOVgebruik.xaml;BarOVgebruik.xaml;MainWindow.xaml;StartPage.xaml;
 
 False
 

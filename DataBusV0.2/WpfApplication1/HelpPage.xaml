@@ -1,25 +1,43 @@
-﻿<Page x:Class="WpfApplication1.HelpPage"
+﻿<Window x:Class="WpfApplication1.HelpPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:WpfApplication1"
       mc:Ignorable="d"
-      Title="HelpPage" Width="1920" Height="1080">
+      Title="HelpPage" Width="1920" Height="1080"        WindowState="Maximized" WindowStyle="None">
 
-    <Page.Background>
-        <ImageBrush ImageSource="\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\PRO3 interface\PRO3 interface\obj\Rotterdam-2.jpg"></ImageBrush>
-    </Page.Background>
 
-    <Grid>
+    <Window.Background>
+        <ImageBrush ImageSource="Rotterdam-2.jpg"></ImageBrush>
+    </Window.Background>
+
+    <Viewbox StretchDirection="Both" Stretch="Uniform">
+        <Grid>
         <TextBlock x:Name="Titlebar" Text="Help" Margin="78,108,1608,834" Foreground="White" FontFamily="Times New Roman" FontSize="120" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-        <Button x:Name="BackToMenubutton" Margin="78,758,1532,208" Width="Auto" Click="BackToMenuButton_Click">
-            <TextBlock Text="Back To Menu" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Frame x:Name="Main" Margin="-10,0,10,0.209"/>
+
+        <Canvas HorizontalAlignment="Left" Height="562" Margin="502,310,0,0" VerticalAlignment="Top" Width="976" Background="White">
+            <TextBlock x:Name="info" Canvas.Left="70" FontWeight="Bold" FontSize="25" TextWrapping="Wrap" Canvas.Top="200" Height="273" Width="873" Text="Welkom en leuk dat je gebruik maakt van de applicatie DataBus. De applicatie is bedoeld om informatie op te doen over het OV-gebruik in Rotterdam. Er wordt met behulp van grafieken en diagrammen een vergelijking gemaakt tussen mensen met en zonder een auto en wat hiervoor het OV-gebruik is. Ook wordt gekeken of het OV-gebruik hoger of lager wordt afhankelijk van het aantal beschikbare haltes in een gemeente/wijk."/>
+            <TextBlock x:Name="textBlock" Canvas.Left="70" FontWeight="Bold" FontSize="70" TextWrapping="Wrap" Text="Intro" Canvas.Top="56"/>
+        </Canvas>
+
+            <Button x:Name="BackToMenubutton" Margin="78,758,1532,208" Width="Auto" Click="BackToMenuButton_Click">
+                <TextBlock Text="Back To Menu" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Button>
+            <Button x:Name="Exitbutton" Margin="78,898,1532,68" Width="Auto" RenderTransformOrigin="0.5,0.5" Click="ExitButton_Click">
+                <TextBlock Text="Exit" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Button>
+
+            <Button x:Name="Next" Margin="1378,191,442,0" VerticalAlignment="Top" Width="100" Height="100" Click="Button_Click_Next">
+            <TextBlock Text="&gt;" FontWeight="Bold" FontSize="60" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-14,0,-5.896" Width="34"/>
         </Button>
-        <Button x:Name="Exitbutton" Margin="78,898,1532,68" Width="Auto" RenderTransformOrigin="0.5,0.5" Click="ExitButton_Click">
-            <TextBlock Text="Exit" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Button x:Name="Back" Margin="1261,191,559,0" VerticalAlignment="Top" Width="100" Height="100" Click="Back_Click">
+            <TextBlock Text="&lt;" FontWeight="Bold" FontSize="60" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-14,0,-5.896" Width="34"/>
         </Button>
-        <Frame x:Name="Main"/>
+
     </Grid>
-</Page>
+    </Viewbox>
+</Window>

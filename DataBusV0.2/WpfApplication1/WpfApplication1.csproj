@@ -74,6 +74,9 @@
     <Compile Include="EditPage.xaml.cs">
       <DependentUpon>EditPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="HelpPage.xaml.cs" />
+    <Compile Include="HelpPage2.xaml.cs" />
+    <Compile Include="HelpPage3.xaml.cs" />
     <Compile Include="Kaart.xaml.cs">
       <DependentUpon>Kaart.xaml</DependentUpon>
     </Compile>
@@ -85,9 +88,6 @@
     </Compile>
     <Compile Include="LineHaltes.xaml.cs">
       <DependentUpon>LineHaltes.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="HelpPage.xaml.cs">
-      <DependentUpon>HelpPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="LineAutobezit.xaml.cs">
       <DependentUpon>LineAutobezit.xaml</DependentUpon>
@@ -124,6 +124,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="HelpPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="HelpPage2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="HelpPage3.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Kaart.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -139,10 +151,6 @@
     <Page Include="LineHaltes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="HelpPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
     </Page>
     <Page Include="LineAutobezit.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -210,6 +218,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Kaart_wijken_Rotterdam.png" />
+    <Resource Include="Rotterdam-2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

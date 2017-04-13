@@ -16,15 +16,15 @@ using System.Windows.Shapes;
 namespace WpfApplication1
 {
     /// <summary>
-    /// Interaction logic for HelpPage.xaml
+    /// Interaction logic for HelpPage3.xaml
     /// </summary>
-    public partial class HelpPage : Window
+    public partial class HelpPage3 : Window
     {
         HelpPage help;
         HelpPage2 help2;
         HelpPage3 help3;
 
-        public HelpPage()
+        public HelpPage3()
         {
             InitializeComponent();
         }
@@ -41,17 +41,16 @@ namespace WpfApplication1
             Application.Current.Shutdown();
         }
 
-        private void Button_Click_Next(object sender, RoutedEventArgs e)
+        private void Button_Click_Back(object sender, RoutedEventArgs e)
         {
             help2 = new WpfApplication1.HelpPage2();
             help2.Show();
             Close();
         }
-
-        private void Back_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_Next(object sender, RoutedEventArgs e)
         {
-            help3 = new WpfApplication1.HelpPage3();
-            help3.Show();
+            help = new WpfApplication1.HelpPage();
+            help.Show();
             Close();
         }
     }
