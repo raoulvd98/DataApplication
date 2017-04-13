@@ -41,16 +41,18 @@ namespace WpfApplication1
             Application.Current.Shutdown();
         }
 
-        private void Button_Click_Back(object sender, RoutedEventArgs e)
-        {
-            help2 = new WpfApplication1.HelpPage2();
-            help2.Show();
-            Close();
-        }
+
         private void Button_Click_Next(object sender, RoutedEventArgs e)
         {
             help = new WpfApplication1.HelpPage();
             help.Show();
+            Close();
+        }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            help2 = new WpfApplication1.HelpPage2();
+            help2.Show();
             Close();
         }
     }

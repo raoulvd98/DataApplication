@@ -48,7 +48,9 @@ namespace WpfApplication1
             Close();
         }
 
-        private void Button_Click_Back(object sender, RoutedEventArgs e)
+
+
+        private void Back_Click(object sender, RoutedEventArgs e)
         {
             help = new WpfApplication1.HelpPage();
             help.Show();

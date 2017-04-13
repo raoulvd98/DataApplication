@@ -31,7 +31,7 @@
                 <TextBlock Text="&gt;" FontWeight="Bold" FontSize="60" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-14,0,-5.896" Width="34"/>
             </Button>
 
-            <Button x:Name="Back" Margin="1261,191,559,0" VerticalAlignment="Top" Width="100" Height="100">
+            <Button x:Name="Back" Margin="1261,191,559,0" VerticalAlignment="Top" Width="100" Height="100" Click="Back_Click">
                 <TextBlock Text="&lt;" FontWeight="Bold" FontSize="60" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-14,0,-5.896" Width="34"/>
             </Button>
         </Grid>
