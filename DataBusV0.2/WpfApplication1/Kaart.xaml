@@ -1,0 +1,54 @@
+﻿<Page x:Class="WpfApplication1.Kaart"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApplication1"
+      mc:Ignorable="d"
+      Title="Kaart" Height="489.18" Width="685.2"
+      >
+
+    <Grid Margin="0,-526,-1135.2,-0.2" HorizontalAlignment="Right" Width="1722">
+        <Image x:Name="image" HorizontalAlignment="Left" Margin="536,0,0,66" Width="1062" 
+                   Source="\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Kaart_wijken_Rotterdam.png" Height="906" VerticalAlignment="Bottom"/>
+        <Button x:Name="Centrum" Click="CentrumBut" Margin="965,568,0,0" Width="169" RenderTransformOrigin="0.5,0.5" Background="#00000000" Height="82" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <TextBlock Text="Centrum" Margin="0, 0, 0, 0" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Button>
+        <Button x:Name="Noord"  Click="NoordBut" Margin="917,489,0,0" Width="158" RenderTransformOrigin="0.5,0.5" Background="#00000000" Height="79" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <TextBlock Text="Noord" Margin="0, 0, 0, 0" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Button>
+        <Button x:Name="IJselmonde" Click="IJselmondeBut" Margin="1202,685,0,0" Width="152" RenderTransformOrigin="0.5,0.5" Background="#00000000" Height="161" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <TextBlock Text="IJselmonde" Margin="0, 0, 0, 0" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Button>
+        <Button x:Name="Charlois" Click="CharloisBut" Margin="965,742,0,0" Width="152" RenderTransformOrigin="0.5,0.5" Background="#00000000" Height="161" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <TextBlock Text="Charlois" Margin="0, 0, 0, 0" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Button>
+        <Button x:Name="Feijenoord" Click="FeijenoordBut" Margin="1058,622,0,0" Width="138" RenderTransformOrigin="0.5,0.5" Background="#00000000" Height="105" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <TextBlock Text="Feijenoord" Margin="0,0,0,37.8" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Button>
+        <Button x:Name="Waalhaven" Click="WaalhavenBut" Margin="778,713,0,0" Width="182" RenderTransformOrigin="0.5,0.5" Background="#00000000" Height="133" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <TextBlock Text="Waalhaven" Margin="0, 0, 0, 0" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Button>
+        <Button x:Name="HoogvlietPernis" Click="HoogvlietBut" Margin="559,823,0,0" Width="179" RenderTransformOrigin="0.5,0.5" Background="#00000000" Height="139" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <TextBlock Text="Hoogvliet &#xa;Pernis" Margin="0,10,0,17.2" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Height="72" Width="96"/>
+        </Button>
+        <Button x:Name="Delfshaven" Click="DelfshavenBut" Margin="828,568,0,0" Width="168" RenderTransformOrigin="0.5,0.5" Background="#00000000" Height="113" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <TextBlock Text="Delfshaven" Margin="0, 0, 0, 0" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Button>
+        <Button x:Name="PrinsAlexander" Click="PrinsAlexanderBut" Margin="1221,320,0,0" Width="168" RenderTransformOrigin="0.5,0.5" Background="#00000000" Height="221" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <TextBlock Text="Prins &#xa;Alexander" Margin="0, 0, 0, 0" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Button>
+        <Button x:Name="Overschie" Click="OverschieBut" Margin="808,296,0,0" Width="168" RenderTransformOrigin="0.5,0.5" Background="#00000000" Height="221" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <TextBlock Text="Overschie" Margin="0, 0, 0, 0" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Button>
+        <Button x:Name="HillgersbergSchiekamp" Click="HillegersbergBut" Margin="981,245,0,0" Width="242" RenderTransformOrigin="0.5,0.5" Background="#00000000" Height="239" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <TextBlock Text="Hillgersberg &#xa;Schiekamp" Margin="0,80,0,39.2" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80" Width="124"/>
+        </Button>
+        <Button x:Name="Kralingen" Click="KralingenBut" Margin="1080,437,0,0" Width="178" RenderTransformOrigin="0.5,0.5" Background="#00000000" Height="162" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <TextBlock Text="Kralingen &#xa;Crooswijk" Margin="0,37,0,-30.4" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Height="115" Width="136"/>
+        </Button>
+        <Button x:Name="HoekHollandd" Click="HoekvHollandBut" Margin="625,142,0,0" Width="351" RenderTransformOrigin="0.5,0.5" Background="#00000000" Height="104" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <TextBlock Text="Hoek van Holland" Margin="0,26,0,-40" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Height="78" Width="156"/>
+        </Button>
+    </Grid>
+</Page>

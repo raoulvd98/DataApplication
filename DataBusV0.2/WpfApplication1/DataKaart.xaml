@@ -1,0 +1,20 @@
+﻿<Page x:Class="WpfApplication1.DataKaart"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApplication1"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="DataKaart">
+
+    <Grid Margin="0,0,-60,0">
+        <Label x:Name="label" Content="" HorizontalAlignment="Left" Margin="-1,1,0,0" VerticalAlignment="Top" Height="85" Width="361" FontSize="30"/>
+        <TextBlock x:Name="Bhaltes" HorizontalAlignment="Left" Margin="11,90,0,0" TextWrapping="Wrap" Text="lll" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="Thaltes" HorizontalAlignment="Left" Margin="11,120,0,0" TextWrapping="Wrap" Text="lll" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="Mhaltes" HorizontalAlignment="Left" Margin="11,150,0,0" TextWrapping="Wrap" Text="lll" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="Autobezit" HorizontalAlignment="Left" Margin="11,180,0,0" TextWrapping="Wrap" Text="lll" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="OVgebruikzauto" HorizontalAlignment="Left" Margin="11,210,0,0" TextWrapping="Wrap" Text="lll" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="OVgebruikauto" HorizontalAlignment="Left" Margin="11,240,0,0" TextWrapping="Wrap" Text="lll" VerticalAlignment="Top" FontSize="20"/>
+    </Grid>
+</Page>

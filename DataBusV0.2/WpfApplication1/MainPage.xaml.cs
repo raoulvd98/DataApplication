@@ -21,6 +21,7 @@ namespace WpfApplication1
     public partial class MainPage : Page
     {
         MainApp application;
+        KaartWindow application1; 
 
 
 
@@ -59,7 +60,8 @@ namespace WpfApplication1
 
         private void KaartButton_Click(object sender, RoutedEventArgs e)
         {
-             Main.Content = new KaartPage();
+            application1 = new WpfApplication1.KaartWindow();
+            application1.Show();
         }
     }
 }

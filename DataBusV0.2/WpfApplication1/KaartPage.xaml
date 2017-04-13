@@ -15,15 +15,12 @@
             <TextBlock x:Name="Titlebar" Text="Kaart" Margin="78,108,1428,834" Foreground="White" FontFamily="Times New Roman" FontSize="120" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
 
-            <Button x:Name="BackToMenubutton" Margin="78,758,1532,208" Width="Auto" Click="BackToMenuButton_Click">
-                <TextBlock Text="Back To Menu" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Button>
-            <Button x:Name="Exitbutton" Margin="78,898,1532,68" Width="Auto" RenderTransformOrigin="0.5,0.5" Click="ExitButton_Click">
-                <TextBlock Text="Exit" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Button>
 
 
-            <Frame x:Name="Main"/>
+
+            <Frame x:Name="Main" NavigationUIVisibility="Hidden"/>
+            <Frame x:Name="PINO" Width="500" Height="500" Margin="23,250,1373,330" NavigationUIVisibility="Hidden"/>
+
             <Image x:Name="image" HorizontalAlignment="Left" Margin="536,0,0,66" Width="1062" 
                    Source="\\fileserver\homedir$\raoul\Desktop\git\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Kaart_wijken_Rotterdam.png" Height="906" VerticalAlignment="Bottom"/>
             <Button x:Name="Centrum" Click="CentrumBut" Margin="965,568,0,0" Width="169" RenderTransformOrigin="0.5,0.5" Background="#00000000" Height="82" VerticalAlignment="Top" HorizontalAlignment="Left">
@@ -32,7 +29,7 @@
             <Button x:Name="Noord"  Click="NoordBut" Margin="917,489,0,0" Width="158" RenderTransformOrigin="0.5,0.5" Background="#00000000" Height="79" VerticalAlignment="Top" HorizontalAlignment="Left">
                 <TextBlock Text="Noord" Margin="0, 0, 0, 0" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Button>
-            <Button x:Name="IJselmonde" Click="IJselmondeBut" Margin="1202,685,0,0" Width="152" RenderTransformOrigin="0.5,0.5" Background="#00000000" Height="161" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <Button x:Name="IJsselmonde" Click="IJsselmondeBut" Margin="1202,685,0,0" Width="152" RenderTransformOrigin="0.5,0.5" Background="#00000000" Height="161" VerticalAlignment="Top" HorizontalAlignment="Left">
                 <TextBlock Text="IJselmonde" Margin="0, 0, 0, 0" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Button>
             <Button x:Name="Charlois" Click="CharloisBut" Margin="965,742,0,0" Width="152" RenderTransformOrigin="0.5,0.5" Background="#00000000" Height="161" VerticalAlignment="Top" HorizontalAlignment="Left">

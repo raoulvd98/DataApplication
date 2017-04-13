@@ -16,70 +16,67 @@ using System.Windows.Shapes;
 namespace WpfApplication1
 {
     /// <summary>
-    /// Interaction logic for KaartPage.xaml
+    /// Interaction logic for Kaart.xaml
     /// </summary>
-    public partial class KaartPage : Page
+    public partial class Kaart : Page
     {
-
-        public KaartPage()
+        public Kaart()
         {
-            InitializeComponent();     
-               
+            InitializeComponent();
         }
-
 
 
         private void CharloisBut(object sender, RoutedEventArgs e)
         {
-            PINO.Content = new DataKaart("Charlois");
+            
         }
         private void DelfshavenBut(object sender, RoutedEventArgs e)
         {
-            PINO.Content = new DataKaart("Delfshaven");
+
         }
         private void FeijenoordBut(object sender, RoutedEventArgs e)
         {
-            PINO.Content = new DataKaart("Feijenoord");
+
         }
         private void HillegersbergBut(object sender, RoutedEventArgs e)
         {
-            PINO.Content = new DataKaart("Hillegersberg-Schiebroek");
+
         }
         private void HoekvHollandBut(object sender, RoutedEventArgs e)
         {
-            PINO.Content = new DataKaart("Hoek van Holland");
+
         }
         private void HoogvlietBut(object sender, RoutedEventArgs e)
         {
-            PINO.Content = new DataKaart("Hoogvliet/Pernis");
+
         }
-        private void IJsselmondeBut(object sender, RoutedEventArgs e)
+        private void IJselmondeBut(object sender, RoutedEventArgs e)
         {
-            PINO.Content = new DataKaart("Ijsselmonde");
+
         }
         private void KralingenBut(object sender, RoutedEventArgs e)
         {
-            PINO.Content = new DataKaart("Kralingen-Crooswijk");
+
         }
         private void NoordBut(object sender, RoutedEventArgs e)
         {
-            PINO.Content = new DataKaart("Noord");
+
         }
         private void OverschieBut(object sender, RoutedEventArgs e)
         {
-            PINO.Content = new DataKaart("Overschie");
+
         }
         private void PrinsAlexanderBut(object sender, RoutedEventArgs e)
         {
-            PINO.Content = new DataKaart("Prins Alexander");
+
         }
         private void CentrumBut(object sender, RoutedEventArgs e)
         {
-            PINO.Content = new DataKaart("Stadscentrum");
+
         }
         private void WaalhavenBut(object sender, RoutedEventArgs e)
         {
-           
+
         }
 
     }
