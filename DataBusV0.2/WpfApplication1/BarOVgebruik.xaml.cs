@@ -24,22 +24,14 @@ namespace WpfApplication1
     public partial class BarOVgebruik: Page
     {
         public BarOVgebruik()
-
         {
             InitializeComponent();
             showChart();
-
-
-
-
-
         }
 
         private void showChart()
         {
-            string ConnectionString = "Server=localhost;Database=project;Uid=root;Pwd=Hallo";
-
-            MySqlConnection connection = new MySqlConnection(ConnectionString);
+            MySqlConnection connection = new MySqlConnection(((MainWindow)System.Windows.Application.Current.MainWindow).Connection());
 
             MySqlCommand cmd = new MySqlCommand("SELECT * FROM ovgebruik", connection);
 
@@ -50,21 +42,15 @@ namespace WpfApplication1
             List<KeyValuePair<string, int>> MyValue2 = new List<KeyValuePair<string, int>>();
             while (reader.Read())
             {
-
-
                 string Wijk = reader.GetString(0);
                 int Bezit_Auto = reader.GetInt32(1);
                 int Bezit_Geen_Auto = reader.GetInt32(2);
 
-
                 MyValue.Add(new KeyValuePair<string, int>(Wijk, Bezit_Auto));
                 MyValue2.Add(new KeyValuePair<string, int>(Wijk, Bezit_Geen_Auto));
-
             }
             Mensen_Met_Auto.DataContext = MyValue;
             Mensen_Zonder_Auto.DataContext = MyValue2;
-
         }
-
     }
 }

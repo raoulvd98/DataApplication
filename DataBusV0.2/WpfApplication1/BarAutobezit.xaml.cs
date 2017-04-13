@@ -28,18 +28,11 @@ namespace WpfApplication1
         {
             InitializeComponent();
             showChart();
-
-
-
-
-
         }
 
         private void showChart()
         {
-            string ConnectionString = "Server=localhost;Database=project;Uid=root;Pwd=Hallo";
-
-            MySqlConnection connection = new MySqlConnection(ConnectionString);
+            MySqlConnection connection = new MySqlConnection(((MainWindow)System.Windows.Application.Current.MainWindow).Connection());
 
             MySqlCommand cmd = new MySqlCommand("SELECT * FROM autobezit", connection);
 
@@ -49,19 +42,13 @@ namespace WpfApplication1
             List<KeyValuePair<string, int>> MyValue = new List<KeyValuePair<string, int>>();
             while (reader.Read())
             {
-
-
                 string Wijk = reader.GetString(0);
                 int Bezit_Auto = reader.GetInt32(1);
                 int Bezit_Geen_Auto = reader.GetInt32(2);
 
-
                 MyValue.Add(new KeyValuePair<string, int>(Wijk, Bezit_Auto));
-
             }
             BarChart1.DataContext = MyValue;
-
         }
-
     }
 }

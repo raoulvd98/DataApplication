@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MySql.Data.MySqlClient;
+using MySql.Data;
+using System.Data;
 
 namespace WpfApplication1
 {
@@ -20,13 +23,17 @@ namespace WpfApplication1
     /// </summary>
     public partial class MainWindow : Window
     {
-
-
         public MainWindow()
         {
             InitializeComponent();
             Main.Content = new MainPage();
         }
 
+        public string Connection()
+        {
+            string ConnectionString = "Server=localhost;Database=project;Uid=root;Pwd=Hallo";
+
+            return ConnectionString;
+        }
     }
 }

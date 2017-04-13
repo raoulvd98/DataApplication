@@ -28,19 +28,11 @@ namespace WpfApplication1
         {
             InitializeComponent();
             showChart();
-
-            
-
-           
-               
         }
 
         private void showChart()
         {
-
-            string ConnectionString = "Server=localhost;Database=project;Uid=root;Pwd=Hallo";
-
-            MySqlConnection connection = new MySqlConnection(ConnectionString);
+            MySqlConnection connection = new MySqlConnection(((MainWindow)System.Windows.Application.Current.MainWindow).Connection());
 
             MySqlCommand cmd = new MySqlCommand("SELECT * FROM autobezit", connection);
 

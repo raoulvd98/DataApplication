@@ -31,9 +31,7 @@ namespace WpfApplication1
 
         public void BindComboBox(ComboBox comboBoxName)
         {
-            string ConnectionString = "Server=localhost;Database=project;Uid=root;Pwd=Hallo";
-
-            MySqlConnection connection = new MySqlConnection(ConnectionString);
+            MySqlConnection connection = new MySqlConnection(((MainWindow)System.Windows.Application.Current.MainWindow).Connection());
 
             MySqlCommand cmd = new MySqlCommand("SELECT Wijk FROM Haltes", connection);
 
@@ -42,14 +40,8 @@ namespace WpfApplication1
             MySqlDataReader reader = cmd.ExecuteReader();
             while (reader.Read())
             {
-
                 comboBoxName.Items.Add(reader.GetString(0));
-
-
-
             }
-            
-
         }
 
         private void PLUS1(object sender, RoutedEventArgs e)
@@ -57,9 +49,8 @@ namespace WpfApplication1
             //Console.WriteLine(comboBox.SelectedItem);
             string add = comboBox.SelectedValue.ToString();
             Console.WriteLine(add);
-            string ConnectionString = "Server=localhost;Database=project;Uid=root;Pwd=Hallo";
 
-            MySqlConnection connection = new MySqlConnection(ConnectionString);
+            MySqlConnection connection = new MySqlConnection(((MainWindow)System.Windows.Application.Current.MainWindow).Connection());
 
             MySqlCommand cmd = new MySqlCommand("UPDATE project.haltes SET Totaal_Aantal_Haltes = Totaal_Aantal_Haltes + 1 WHERE Wijk = '"+add+"'", connection);
 
@@ -72,9 +63,8 @@ namespace WpfApplication1
             //Console.WriteLine(comboBox.SelectedItem);
             string add = comboBox.SelectedValue.ToString();
             Console.WriteLine(add);
-            string ConnectionString = "Server=localhost;Database=project;Uid=root;Pwd=Hallo";
 
-            MySqlConnection connection = new MySqlConnection(ConnectionString);
+            MySqlConnection connection = new MySqlConnection(((MainWindow)System.Windows.Application.Current.MainWindow).Connection());
 
             MySqlCommand cmd = new MySqlCommand("UPDATE project.haltes SET Totaal_Aantal_Haltes = Totaal_Aantal_Haltes - 1 WHERE Wijk = '" + add + "'", connection);
 

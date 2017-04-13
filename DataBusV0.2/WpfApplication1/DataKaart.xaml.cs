@@ -26,16 +26,12 @@ namespace WpfApplication1
         public DataKaart(string Wijk)
         {
             InitializeComponent();
-            showChart(Wijk);
-            
+            showChart(Wijk);            
         }
 
         private void showChart(string Wijk)
         {
-            
-            string ConnectionString = "Server=localhost;Database=project;Uid=root;Pwd=Hallo";
-
-            MySqlConnection connection = new MySqlConnection(ConnectionString);
+            MySqlConnection connection = new MySqlConnection(((MainWindow)System.Windows.Application.Current.MainWindow).Connection());
 
             MySqlCommand cmd = new MySqlCommand("SELECT * FROM project.haltes JOIN autobezit on autobezit.Wijk = haltes.Wijk JOIN ovgebruik on ovgebruik.Wijk = haltes.Wijk WHERE haltes.Wijk ='"+Wijk+"'", connection);
 
@@ -45,8 +41,6 @@ namespace WpfApplication1
             List<KeyValuePair<string, string>> MyValue = new List<KeyValuePair<string, string>>();
             while (reader.Read())
             {
-
-
                 string wijk = reader.GetString(0);
                 string bushaltes = reader.GetString(1);
                 string tramhaltes = reader.GetString(2);
@@ -57,8 +51,7 @@ namespace WpfApplication1
                 string BezitGeenAuto = reader.GetString(8);
                 string OVenBezitAuto = reader.GetString(10);
                 string OVenBezitGeenAuto = reader.GetString(11);
-
-
+                
                 MyValue.Add(new KeyValuePair<string, string>(Wijk, haltes));
                 label.Content = wijk;
                 Bhaltes.Text = "Bushaltes: " + bushaltes;
@@ -67,11 +60,7 @@ namespace WpfApplication1
                 Autobezit.Text = "% autobezit: " + BezitAuto;
                 OVgebruikauto.Text = "% OV gebruik + auto: " + OVenBezitAuto;
                 OVgebruikzauto.Text = "% OV gebruik + geen auto: " + OVenBezitGeenAuto;
-
-
-            }
-
-
+            }           
         }
     }
 }

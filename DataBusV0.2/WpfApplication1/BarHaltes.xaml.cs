@@ -28,20 +28,12 @@ namespace WpfApplication1
         {
             InitializeComponent();
             showChart();
-
-
-
-
-
         }
 
         private void showChart()
         {
-
-            string ConnectionString = "Server=localhost;Database=project;Uid=root;Pwd=Hallo";
-
-            MySqlConnection connection = new MySqlConnection(ConnectionString);
-            MySqlConnection connection2 = new MySqlConnection(ConnectionString);
+            MySqlConnection connection = new MySqlConnection(((MainWindow)System.Windows.Application.Current.MainWindow).Connection());
+            MySqlConnection connection2 = new MySqlConnection(((MainWindow)System.Windows.Application.Current.MainWindow).Connection());
             MySqlCommand cmd = new MySqlCommand("SELECT * FROM haltes", connection);
 
             connection.Open();
@@ -63,24 +55,17 @@ namespace WpfApplication1
                 int haltes_count = reader.GetInt32(4);
                 int Totaal_OV_gebruik = reader.GetInt32(5);
 
-
-
                 float cnt = (haltes_count * 100 / tot_aantal_haltes);
 
                 Console.WriteLine(Wijk);
                 Console.WriteLine(cnt);
                 Console.WriteLine(tot_aantal_haltes);
 
-
                 MyValue.Add(new KeyValuePair<string, float>(Wijk, cnt));
                 MyValue2.Add(new KeyValuePair<string, int>(Wijk, Totaal_OV_gebruik));
             }
-
             OV.DataContext = MyValue2;
             Haltes.DataContext = MyValue;
-
-
         }
-
     }
 }
