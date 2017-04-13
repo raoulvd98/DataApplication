@@ -16,5 +16,5 @@ DEBUG;TRACE
 17714260390
 BarAutobezit.xaml;BarHaltes.xaml;CreditsPage.xaml;EditPage.xaml;KaartPage.xaml;LineHaltes.xaml;HelpPage.xaml;LineAutobezit.xaml;MainPage.xaml;MainApp.xaml;LineOVgebruik.xaml;BarOVgebruik.xaml;MainWindow.xaml;StartPage.xaml;
 
-True
+False
 
