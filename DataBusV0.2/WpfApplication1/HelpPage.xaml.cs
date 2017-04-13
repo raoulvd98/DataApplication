@@ -20,10 +20,7 @@ namespace WpfApplication1
     /// </summary>
     public partial class HelpPage : Window
     {
-        HelpPage help;
-        HelpPage2 help2;
-        HelpPage3 help3;
-
+        int pagestate = 1;
         public HelpPage()
         {
             InitializeComponent();
@@ -43,16 +40,41 @@ namespace WpfApplication1
 
         private void Button_Click_Next(object sender, RoutedEventArgs e)
         {
-            help2 = new WpfApplication1.HelpPage2();
-            help2.Show();
-            Close();
+            if (pagestate <= 3)
+            {
+                pagestate += 1;
+            }
+            write(pagestate);
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
-            help3 = new WpfApplication1.HelpPage3();
-            help3.Show();
-            Close();
+            if (pagestate > 1)
+            {
+                pagestate -= 1;
+            }
+            write(pagestate);
+        }
+
+        public void write(int pagestate)
+        {
+            if (pagestate == 1)
+            {
+                info.Text = "Welkom en leuk dat je gebruik maakt van de applicatie DataBus. De applicatie is bedoeld om informatie op te doen over het OV-gebruik in Rotterdam. Er wordt met behulp van grafieken en diagrammen een vergelijking gemaakt tussen mensen met en zonder een auto en wat hiervoor het OV-gebruik is. Ook wordt gekeken of het OV-gebruik hoger of lager wordt afhankelijk van het aantal beschikbare haltes in een gemeente/wijk.";
+                textBlock.Text = "Intro";
+            }
+
+            else if (pagestate == 2)
+            {
+                info.Text = "In het hoofdmenu kan je verschillende kanten op. Je kan hierheen, richting het helpscherm, je kan naar de “Credits” kijken en je kan de applicatie starten/afsluiten.";
+                textBlock.Text = "Hoofdmenu";
+            }
+
+            else if (pagestate == 3)
+            {
+                info.Text = "Aan de linkerkant van het scherm zie je een aantal knoppen. Je kan hier selecteren welke tabel je wilt weergeven. Met de knop “Staafdiagram” kun je schakelen tussen een gewone grafiek en een staafdiagram. Als je een tabel hebt geselecteerd om weer te geven druk je op Filter. De grafiek/staafdiagram zal dan worden weergegeven. Met de knop Hoofdmenu ga je terug naar het hoofdmenu.";
+                textBlock.Text = "Start";
+            }
         }
     }
 }
