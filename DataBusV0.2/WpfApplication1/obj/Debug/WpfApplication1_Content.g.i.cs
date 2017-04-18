@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("kaart_wijken_rotterdam.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("rotterdam-2.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("logodatabus.png")]
 
 

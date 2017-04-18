@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1920" Width="1080"
+        Title="MainWindow" Height="1080" Width="1920"
         WindowState="Maximized" WindowStyle="None">
 
     <Window.Background>
@@ -13,8 +13,7 @@
     </Window.Background>
 
     <Grid>
-
-            <Button x:Name="button" Content="     Filter" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" Width="104" Foreground="White" Click="button_Click"/>
+        <Button x:Name="button" Content="      Filter" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" Width="104" Foreground="White" Click="button_Click"/>
             <Frame x:Name="Main"/>
             <CheckBox x:Name="checkBox" Content="BarChart" HorizontalAlignment="Left" Margin="25,100,0,0" VerticalAlignment="Top" Background="White" Foreground="White"/>
             <RadioButton x:Name="OVgebruik" Content="OVgebruik" HorizontalAlignment="Left" Margin="25,120,0,0" VerticalAlignment="Top" Foreground="White" />

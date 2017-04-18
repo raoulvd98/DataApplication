@@ -12,11 +12,11 @@
     </Page.Background>
     <Viewbox StretchDirection="Both" Stretch="Uniform">
         <Grid>
-
-            <TextBlock x:Name="Titlebar" Text="DataBus" Margin="78,108,1428,834" Foreground="White" FontFamily="Times New Roman" FontSize="120" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Image Source="LogoDataBus.png" Margin="52,26,1024,654" Height="400" Width="850" RenderTransformOrigin="0.474,0.214"></Image>
+            <TextBlock x:Name="Titlebar" Text="              " Margin="78,108,1428,834" Foreground="White" FontFamily="Times New Roman" FontSize="120" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
             <Button x:Name="Startbutton" FontSize="40" Margin="78,758,1532,208" Width="Auto" Click="StartButton_Click">
-                <TextBlock Text="Start" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock x:Name="Start" Text="Start" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Button>
             <Button x:Name="Creditsbutton" Margin="78,898,1532,68" Width="Auto" Click="CreditsButton_Click">
                 <TextBlock Text="Credits" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>

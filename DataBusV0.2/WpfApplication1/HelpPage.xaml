@@ -7,7 +7,6 @@
       mc:Ignorable="d"
       Title="HelpPage" Width="1920" Height="1080"        WindowState="Maximized" WindowStyle="None">
 
-
     <Window.Background>
         <ImageBrush ImageSource="Rotterdam-2.jpg"></ImageBrush>
     </Window.Background>
@@ -18,7 +17,7 @@
 
         <Frame x:Name="Main" Margin="-10,0,10,0.209"/>
 
-        <Canvas HorizontalAlignment="Left" Height="562" Margin="502,310,0,0" VerticalAlignment="Top" Width="976" Background="White">
+        <Canvas HorizontalAlignment="Left" Height="562" Margin="641,340,0,0" VerticalAlignment="Top" Width="976" Background="LightGray">
             <TextBlock x:Name="info" Canvas.Left="70" FontWeight="Bold" FontSize="25" TextWrapping="Wrap" Canvas.Top="200" Height="273" Width="873" Text="Welkom en leuk dat je gebruik maakt van de applicatie DataBus. De applicatie is bedoeld om informatie op te doen over het OV-gebruik in Rotterdam. Er wordt met behulp van grafieken en diagrammen een vergelijking gemaakt tussen mensen met en zonder een auto en wat hiervoor het OV-gebruik is. Ook wordt gekeken of het OV-gebruik hoger of lager wordt afhankelijk van het aantal beschikbare haltes in een gemeente/wijk."/>
             <TextBlock x:Name="textBlock" Canvas.Left="70" FontWeight="Bold" FontSize="70" TextWrapping="Wrap" Text="Intro" Canvas.Top="56"/>
         </Canvas>
@@ -30,11 +29,11 @@
                 <TextBlock Text="Afsluiten" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Button>
 
-            <Button x:Name="Next" Margin="1378,191,442,0" VerticalAlignment="Top" Width="100" Height="100" Click="Button_Click_Next">
+            <Button x:Name="Next" Margin="1520,191,300,0" VerticalAlignment="Top" Width="100" Height="100" Click="Button_Click_Next">
             <TextBlock Text="&gt;" FontWeight="Bold" FontSize="60" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-14,0,-5.896" Width="34"/>
         </Button>
 
-        <Button x:Name="Back" Margin="1261,191,559,0" VerticalAlignment="Top" Width="100" Height="100" Click="Back_Click">
+        <Button x:Name="Back" Margin="1405,191,415,0" VerticalAlignment="Top" Width="100" Height="100" Click="Back_Click">
             <TextBlock Text="&lt;" FontWeight="Bold" FontSize="60" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-14,0,-5.896" Width="34"/>
         </Button>
 
