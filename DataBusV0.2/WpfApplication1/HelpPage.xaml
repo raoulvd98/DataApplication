@@ -5,15 +5,16 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:WpfApplication1"
       mc:Ignorable="d"
-      Title="HelpPage" Width="1920" Height="1080"        WindowState="Maximized" WindowStyle="None">
+      Title="HelpPage" Width="1920" Height="1080" WindowState="Maximized" WindowStyle="None">
 
     <Window.Background>
         <ImageBrush ImageSource="Rotterdam-2.jpg"></ImageBrush>
     </Window.Background>
 
     <Viewbox StretchDirection="Both" Stretch="Uniform">
+        
         <Grid>
-        <TextBlock x:Name="Titlebar" Text="Help" Margin="78,108,1608,834" Foreground="White" FontFamily="Times New Roman" FontSize="120" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="Titlebar" Text="Hulp" Margin="78,108,1608,834" Foreground="White" FontFamily="Times New Roman" FontSize="120" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
         <Frame x:Name="Main" Margin="-10,0,10,0.209"/>
 
@@ -22,6 +23,7 @@
             <TextBlock x:Name="textBlock" Canvas.Left="70" FontWeight="Bold" FontSize="70" TextWrapping="Wrap" Text="Intro" Canvas.Top="56"/>
         </Canvas>
 
+            <!-- Aanmaken knoppen voor navigatie -->
             <Button x:Name="BackToMenubutton" Margin="78,758,1532,208" Width="Auto" Click="BackToMenuButton_Click">
                 <TextBlock Text="Hoofdmenu" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Button>

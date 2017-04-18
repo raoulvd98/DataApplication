@@ -6,10 +6,11 @@
       xmlns:local="clr-namespace:WpfApplication1"
       xmlns:chartingToolkit="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit" x:Class="WpfApplication1.LineAutobezit"
       mc:Ignorable="d"
-      Title="LineAutobezit" Height="1920" Width="1080">
+      Title="LineAutobezit" Height="1080" Width="1920">
 
+    <!-- Aanmaken grafiek Autbezit -->
     <Grid>
-        <chartingToolkit:Chart  Name="LineChart1" Title="% Inwoners die een auto bezit" Height="580" Margin="10,125,0,1215" Background="White">
+        <chartingToolkit:Chart  Name="LineChart1" Title="% Inwoners die een auto bezit" Height="580" Width="1200" Margin="604,116,116,384" Background="White">
             <chartingToolkit:LineSeries  DependentValuePath="Value"
             IndependentValuePath="Key" ItemsSource="{Binding}"
             IsSelectionEnabled="True" Margin="0,0,1.4,0" Title="Bezit auto"/>

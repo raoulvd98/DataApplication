@@ -29,10 +29,13 @@ namespace WpfApplication1
             Main.Content = new MainPage();
         }
 
+        /// <summary>
+        /// Algemene line code voor connectie met database
+        /// </summary>
+
         public string Connection()
         {
             string ConnectionString = "Server=localhost;Database=project;Uid=root;Pwd=080396-jeroen";
-
             return ConnectionString;
         }
     }

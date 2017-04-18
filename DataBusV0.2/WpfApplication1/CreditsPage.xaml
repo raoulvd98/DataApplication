@@ -11,6 +11,7 @@
         <ImageBrush ImageSource="Rotterdam-2.jpg"></ImageBrush>
     </Page.Background>
 
+    <!-- Aanmaken tekstblokken -->
     <Grid>
         <TextBlock x:Name="Titlebar" Text="Credits" Margin="78,108,1472,834" Foreground="White" FontFamily="Times New Roman" FontSize="120" HorizontalAlignment="Center" VerticalAlignment="Center" Width="370"/>
 

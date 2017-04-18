@@ -24,11 +24,14 @@ namespace WpfApplication1
     public partial class LineAutobezit : Page
     {
         public LineAutobezit()
-        
         {
             InitializeComponent();
             showChart();
         }
+
+        /// <summary>
+        /// Connectie met database. Database openen, uitlezen en weergeven.
+        /// </summary>
 
         private void showChart()
         {
@@ -42,19 +45,13 @@ namespace WpfApplication1
             List<KeyValuePair<string, int>> MyValue = new List<KeyValuePair<string, int>>();
             while (reader.Read())
             {
-
-
                 string Wijk = reader.GetString(0);
                 int Bezit_Auto = reader.GetInt32(1);
                 int Bezit_Geen_Auto = reader.GetInt32(2);
 
-
                 MyValue.Add(new KeyValuePair<string, int>(Wijk, Bezit_Auto));
-
             }
             LineChart1.DataContext = MyValue;
-
         }
-
     }
 }

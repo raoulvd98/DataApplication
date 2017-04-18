@@ -6,10 +6,11 @@
       xmlns:local="clr-namespace:WpfApplication1"
       xmlns:chartingToolkit="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit" x:Class="WpfApplication1.LineHaltes"
       mc:Ignorable="d"
-      Title="Haltes" Height="1920" Width="1080">
+      Title="Haltes" Height="1080" Width="1920">
 
+    <!-- Aanmaken grafiek Haltes -->
     <Grid>
-       <chartingToolkit:Chart  Name="Totalehaltes" Title="%Aantal Haltes - OV gebruik" Height="580" Margin="10,125,0,1215" Background="White">
+        <chartingToolkit:Chart  Name="Totalehaltes" Title="%Aantal Haltes - OV gebruik" Height="580" Width="1200" Margin="604,116,116,384" Background="White">
             <chartingToolkit:LineSeries  x:Name="Haltes" DependentValuePath="Value"
             IndependentValuePath="Key" ItemsSource="{Binding}"
             IsSelectionEnabled="True" Margin="0,0,1.4,0" Title="Aantal_Haltes"/> 

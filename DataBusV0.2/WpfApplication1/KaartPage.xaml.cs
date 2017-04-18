@@ -26,6 +26,10 @@ namespace WpfApplication1
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Verwijzing naar Datakaart
+        /// </summary>
+
         private void CharloisBut(object sender, RoutedEventArgs e)
         {
             PINO.Content = new DataKaart("Charlois");
@@ -76,8 +80,7 @@ namespace WpfApplication1
         }
         private void WaalhavenBut(object sender, RoutedEventArgs e)
         {
-           
+            PINO.Content = new DataKaart("Waalhaven");
         }
-
     }
 }

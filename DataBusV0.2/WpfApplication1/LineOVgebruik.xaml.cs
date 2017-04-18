@@ -24,12 +24,14 @@ namespace WpfApplication1
     public partial class LineOVgebruik : Page
     {
         public LineOVgebruik()
-        
         {
             InitializeComponent();
-            showChart();       
-               
+            showChart();
         }
+
+        /// <summary>
+        /// Connectie met database. Database openen, uitlezen en weergeven.
+        /// </summary>
 
         private void showChart()
         {
@@ -42,23 +44,18 @@ namespace WpfApplication1
             MySqlDataReader reader = cmd.ExecuteReader();
             List<KeyValuePair<string, int>> MyValue = new List<KeyValuePair<string, int>>();
             List<KeyValuePair<string, int>> MyValue2 = new List<KeyValuePair<string, int>>();
+
             while (reader.Read())
             {
-
-
                 string Wijk = reader.GetString(0);
                 int Bezit_Auto = reader.GetInt32(1);
                 int Bezit_Geen_Auto = reader.GetInt32(2);
 
-
                 MyValue.Add(new KeyValuePair<string, int>(Wijk, Bezit_Auto));
                 MyValue2.Add(new KeyValuePair<string, int>(Wijk, Bezit_Geen_Auto));
-
             }
             Mensen_Met_Auto.DataContext = MyValue;
             Mensen_Zonder_Auto.DataContext = MyValue2;
-
         }
-
     }
 }

@@ -19,11 +19,11 @@ using System.Data;
 namespace WpfApplication1
 {
     /// <summary>
-    /// Interaction logic for Page2.xaml
+    /// Interaction logic for LineOV0409.xaml
     /// </summary>
-    public partial class BarOVgebruik: Page
+    public partial class LineOV0409 : Page
     {
-        public BarOVgebruik()
+        public LineOV0409()
         {
             InitializeComponent();
             showChart();
@@ -37,7 +37,7 @@ namespace WpfApplication1
         {
             MySqlConnection connection = new MySqlConnection(((MainWindow)System.Windows.Application.Current.MainWindow).Connection());
 
-            MySqlCommand cmd = new MySqlCommand("SELECT * FROM ovgebruik", connection);
+            MySqlCommand cmd = new MySqlCommand("SELECT * FROM ov0409", connection);
 
             connection.Open();
 
@@ -46,15 +46,15 @@ namespace WpfApplication1
             List<KeyValuePair<string, int>> MyValue2 = new List<KeyValuePair<string, int>>();
             while (reader.Read())
             {
-                string Wijk = reader.GetString(0);
+                string Jaar = reader.GetString(0);
                 int Bezit_Auto = reader.GetInt32(1);
                 int Bezit_Geen_Auto = reader.GetInt32(2);
 
-                MyValue.Add(new KeyValuePair<string, int>(Wijk, Bezit_Auto));
-                MyValue2.Add(new KeyValuePair<string, int>(Wijk, Bezit_Geen_Auto));
+                MyValue.Add(new KeyValuePair<string, int>(Jaar, Bezit_Auto));
+                MyValue2.Add(new KeyValuePair<string, int>(Jaar, Bezit_Geen_Auto));
             }
-            Mensen_Met_Auto.DataContext = MyValue;
-            Mensen_Zonder_Auto.DataContext = MyValue2;
+            LINEov.DataContext = MyValue;
+            LINEovTwee.DataContext = MyValue2;
         }
     }
 }

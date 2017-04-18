@@ -26,6 +26,10 @@ namespace WpfApplication1
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Knoppen voor navigatie aanmaken.
+        /// </summary>
+
         private void BackToMenuButton_Click(object sender, RoutedEventArgs e)
         {
             Main.Content = new MainPage();
@@ -37,6 +41,10 @@ namespace WpfApplication1
             Application.Current.ShutdownMode = ShutdownMode.OnExplicitShutdown;
             Application.Current.Shutdown();
         }
+
+        /// <summary>
+        /// Knoppen voor navigate hulpmenu.
+        /// </summary>
 
         private void Button_Click_Next(object sender, RoutedEventArgs e)
         {
@@ -55,6 +63,10 @@ namespace WpfApplication1
             }
             write(pagestate);
         }
+
+        /// <summary>
+        /// Tekst van hulpmenu.
+        /// </summary>
 
         public void write(int pagestate)
         {

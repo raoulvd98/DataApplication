@@ -21,18 +21,17 @@ namespace WpfApplication1
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    /// 
-
 
     public partial class MainApp : Window
     {
-
         public MainApp()
         {
             InitializeComponent();
-
         }
 
+        /// <summary>
+        /// Check voor checkbox en radiobuttons.
+        /// </summary>
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
@@ -66,11 +65,26 @@ namespace WpfApplication1
                 Main.Content = new BarHaltes();
             }
 
+            else if ((checkBox.IsChecked == false) && (OVgebruik0409.IsChecked == true))
+            {
+                Main.Content = new LineOV0409();
+            }
+
+            else if ((checkBox.IsChecked == true) && (OVgebruik0409.IsChecked == true))
+            {
+                Main.Content = new BarOV0409();
+            }
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
             Close();
+        }
+
+        private void ExitButton_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.ShutdownMode = ShutdownMode.OnExplicitShutdown;
+            Application.Current.Shutdown();
         }
     }
 }

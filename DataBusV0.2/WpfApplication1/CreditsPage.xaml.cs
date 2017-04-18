@@ -25,6 +25,10 @@ namespace WpfApplication1
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Knoppen credits pagina. Terug naar hoofdmenu en afsluiten applicatie.
+        /// </summary>
+
         private void BackToMenuButton_Click(object sender, RoutedEventArgs e)
         {
             Main.Content = new MainPage();

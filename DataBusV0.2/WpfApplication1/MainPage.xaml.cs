@@ -24,18 +24,19 @@ namespace WpfApplication1
         KaartWindow application1;
         HelpPage application2;
 
-
-
         public MainPage()
         {
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Navigatie van alle knoppen uit hoofdmenu.
+        /// </summary>
+
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
             application = new WpfApplication1.MainApp();
             application.Show();
-
         }
 
         private void HelpButton_Click(object sender, RoutedEventArgs e)

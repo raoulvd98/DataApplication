@@ -25,15 +25,23 @@ namespace WpfApplication1
             Main.Content = new KaartPage();
         }
 
+        /// <summary>
+        /// Knoppen voor navigatie.
+        /// </summary>
+
         private void ExitButton_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.ShutdownMode = ShutdownMode.OnExplicitShutdown;
             Application.Current.Shutdown();
         }
+
+        /// <summary>
+        /// KILL ME.
+        /// </summary>
+
         private void BackToMenuButton_Click(object sender, RoutedEventArgs e)
         {
             Close();
         }
-
     }
 }

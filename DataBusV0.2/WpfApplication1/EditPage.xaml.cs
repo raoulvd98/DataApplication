@@ -29,6 +29,10 @@ namespace WpfApplication1
             BindComboBox(comboBox);
         }
 
+        /// <summary>
+        /// Connectie met database. Database openen, uitlezen, weergeven en selecteren.
+        /// </summary>
+
         public void BindComboBox(ComboBox comboBoxName)
         {
             MySqlConnection connection = new MySqlConnection(((MainWindow)System.Windows.Application.Current.MainWindow).Connection());
@@ -44,9 +48,12 @@ namespace WpfApplication1
             }
         }
 
+        /// <summary>
+        /// Connectie met database. Database openen en aanpassen.
+        /// </summary>
+
         private void PLUS1(object sender, RoutedEventArgs e)
         {
-            //Console.WriteLine(comboBox.SelectedItem);
             string add = comboBox.SelectedValue.ToString();
             Console.WriteLine(add);
 
@@ -58,9 +65,12 @@ namespace WpfApplication1
             MySqlDataReader reader = cmd.ExecuteReader();
         }
 
+        /// <summary>
+        /// Connectie met database. Database openen en aanpassen.
+        /// </summary>
+
         private void MIN1(object sender, RoutedEventArgs e)
         {
-            //Console.WriteLine(comboBox.SelectedItem);
             string add = comboBox.SelectedValue.ToString();
             Console.WriteLine(add);
 
@@ -71,6 +81,10 @@ namespace WpfApplication1
             connection.Open();
             MySqlDataReader reader = cmd.ExecuteReader();
         }
+
+        /// <summary>
+        /// Knoppen voor terug naar hoofdmenu en afsluiten applicatie.
+        /// </summary>
 
         private void BackToMenuButton_Click(object sender, RoutedEventArgs e)
         {

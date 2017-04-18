@@ -24,11 +24,14 @@ namespace WpfApplication1
     public partial class LineHaltes : Page
     {
         public LineHaltes()
-
         {
             InitializeComponent();
             showChart();
         }
+
+        /// <summary>
+        /// Connectie met database. Database openen, uitlezen en weergeven.
+        /// </summary>
 
         private void showChart()
         {
@@ -43,7 +46,6 @@ namespace WpfApplication1
             List<KeyValuePair<string, float>> MyValue = new List<KeyValuePair<string, float>>();
             List<KeyValuePair<string, int>> MyValue2 = new List<KeyValuePair<string, int>>();
 
-
             MySqlCommand cmd2 = new MySqlCommand("SELECT sum(Totaal_Aantal_Haltes) FROM haltes", connection2);
             MySqlDataReader reader2 = cmd2.ExecuteReader();
             while (reader.Read())
@@ -54,25 +56,18 @@ namespace WpfApplication1
                 string Wijk = reader.GetString(0);
                 int haltes_count = reader.GetInt32(4);
                 int Totaal_OV_gebruik = reader.GetInt32(5);
-
-
-
+                
                 float cnt = (haltes_count * 100 / tot_aantal_haltes);
 
                 Console.WriteLine(Wijk);
                 Console.WriteLine(cnt);
                 Console.WriteLine(tot_aantal_haltes);
 
-
                 MyValue.Add(new KeyValuePair<string, float>(Wijk, cnt));
                 MyValue2.Add(new KeyValuePair<string, int>(Wijk, Totaal_OV_gebruik));
             }
-
             OV.DataContext = MyValue2;
             Haltes.DataContext = MyValue;
-
-
         }
-
     }
 }

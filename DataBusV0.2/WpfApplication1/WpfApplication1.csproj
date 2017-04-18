@@ -65,6 +65,9 @@
     <Compile Include="BarHaltes.xaml.cs">
       <DependentUpon>BarHaltes.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BarOV0409.xaml.cs">
+      <DependentUpon>BarOV0409.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CreditsPage.xaml.cs">
       <DependentUpon>CreditsPage.xaml</DependentUpon>
     </Compile>
@@ -90,6 +93,9 @@
     <Compile Include="LineAutobezit.xaml.cs">
       <DependentUpon>LineAutobezit.xaml</DependentUpon>
     </Compile>
+    <Compile Include="LineOV0409.xaml.cs">
+      <DependentUpon>LineOV0409.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LineOVgebruik.xaml.cs">
       <DependentUpon>LineOVgebruik.xaml</DependentUpon>
     </Compile>
@@ -104,6 +110,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="BarHaltes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BarOV0409.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -142,6 +152,10 @@
     <Page Include="LineAutobezit.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="LineOV0409.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>

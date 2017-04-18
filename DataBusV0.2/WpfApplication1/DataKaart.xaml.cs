@@ -29,38 +29,52 @@ namespace WpfApplication1
             showChart(Wijk);            
         }
 
+        /// <summary>
+        /// Connectie met database. Database openen, uitlezen en weergeven.
+        /// </summary>
+
         private void showChart(string Wijk)
         {
-            MySqlConnection connection = new MySqlConnection(((MainWindow)System.Windows.Application.Current.MainWindow).Connection());
-
-            MySqlCommand cmd = new MySqlCommand("SELECT * FROM project.haltes JOIN autobezit on autobezit.Wijk = haltes.Wijk JOIN ovgebruik on ovgebruik.Wijk = haltes.Wijk WHERE haltes.Wijk ='"+Wijk+"'", connection);
-
-            connection.Open();
-
-            MySqlDataReader reader = cmd.ExecuteReader();
-            List<KeyValuePair<string, string>> MyValue = new List<KeyValuePair<string, string>>();
-            while (reader.Read())
+            if (Wijk == "Waalhaven")
             {
-                string wijk = reader.GetString(0);
-                string bushaltes = reader.GetString(1);
-                string tramhaltes = reader.GetString(2);
-                string metrohaltes = reader.GetString(3);
-                string haltes = reader.GetString(4);
-                string OVgebruik = reader.GetString(5);
-                string BezitAuto = reader.GetString(7);
-                string BezitGeenAuto = reader.GetString(8);
-                string OVenBezitAuto = reader.GetString(10);
-                string OVenBezitGeenAuto = reader.GetString(11);
-                
-                MyValue.Add(new KeyValuePair<string, string>(Wijk, haltes));
-                label.Content = wijk;
-                Bhaltes.Text = "Bushaltes: " + bushaltes;
-                Thaltes.Text = "Tramhaltes: " + tramhaltes;
-                Mhaltes.Text = "Metrohaltes: " + metrohaltes;
-                Autobezit.Text = "% autobezit: " + BezitAuto;
-                OVgebruikauto.Text = "% OV gebruik + auto: " + OVenBezitAuto;
-                OVgebruikzauto.Text = "% OV gebruik + geen auto: " + OVenBezitGeenAuto;
-            }           
+                label.Content = "Waalhaven";
+                Bhaltes.Text = "Geen informatie beschikbaar";
+            }
+            
+            else
+            {
+                MySqlConnection connection = new MySqlConnection(((MainWindow)System.Windows.Application.Current.MainWindow).Connection());
+
+                MySqlCommand cmd = new MySqlCommand("SELECT * FROM project.haltes JOIN autobezit on autobezit.Wijk = haltes.Wijk JOIN ovgebruik on ovgebruik.Wijk = haltes.Wijk WHERE haltes.Wijk ='" + Wijk + "'", connection);
+
+                connection.Open();
+
+                MySqlDataReader reader = cmd.ExecuteReader();
+                List<KeyValuePair<string, string>> MyValue = new List<KeyValuePair<string, string>>();
+
+                while (reader.Read())
+                {
+                    string wijk = reader.GetString(0);
+                    string bushaltes = reader.GetString(1);
+                    string tramhaltes = reader.GetString(2);
+                    string metrohaltes = reader.GetString(3);
+                    string haltes = reader.GetString(4);
+                    string OVgebruik = reader.GetString(5);
+                    string BezitAuto = reader.GetString(7);
+                    string BezitGeenAuto = reader.GetString(8);
+                    string OVenBezitAuto = reader.GetString(10);
+                    string OVenBezitGeenAuto = reader.GetString(11);
+
+                    MyValue.Add(new KeyValuePair<string, string>(Wijk, haltes));
+                    label.Content = wijk;
+                    Bhaltes.Text = "Bushaltes: " + bushaltes;
+                    Thaltes.Text = "Tramhaltes: " + tramhaltes;
+                    Mhaltes.Text = "Metrohaltes: " + metrohaltes;
+                    Autobezit.Text = "% autobezit: " + BezitAuto;
+                    OVgebruikauto.Text = "% OV gebruik + auto: " + OVenBezitAuto;
+                    OVgebruikzauto.Text = "% OV gebruik + geen auto: " + OVenBezitGeenAuto;
+                }
+            }
         }
     }
 }

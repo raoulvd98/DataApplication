@@ -30,6 +30,10 @@ namespace WpfApplication1
             showChart();
         }
 
+        /// <summary>
+        /// Connectie met database. Database openen, uitlezen en weergeven.
+        /// </summary>
+
         private void showChart()
         {
             MySqlConnection connection = new MySqlConnection(((MainWindow)System.Windows.Application.Current.MainWindow).Connection());
