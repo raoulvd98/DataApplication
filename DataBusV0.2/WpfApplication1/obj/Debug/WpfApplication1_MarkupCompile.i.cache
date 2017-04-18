@@ -4,39 +4,17 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
 C:\Users\jeroe\Desktop\DataApplication-Project-3-kopie\DataBusV0.2\WpfApplication1\obj\Debug\
-=======
-\\fileserver\homedir$\raoul\Desktop\DataApplication-Project-3\DataBusV0.2\WpfApplication1\obj\Debug\
->>>>>>> origin/master
 WpfApplication1
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
 C:\Users\jeroe\Desktop\DataApplication-Project-3-kopie\DataBusV0.2\WpfApplication1\App.xaml
 18-1734785110
-=======
-<<<<<<< HEAD
-\\fileserver\homedir$\raoul\Desktop\DataApplication-Project-3\DataBusV0.2\WpfApplication1\App.xaml
-21589394794
-
-29630706337
-17714260390
-BarAutobezit.xaml;BarHaltes.xaml;BarOV0409.xaml;CreditsPage.xaml;DataKaart.xaml;EditPage.xaml;HelpPage.xaml;HelpPage2.xaml;HelpPage3.xaml;Kaart.xaml;KaartPage.xaml;KaartWindow.xaml;LineHaltes.xaml;LineAutobezit.xaml;LineOV0409.xaml;MainPage.xaml;MainApp.xaml;LineOVgebruik.xaml;BarOVgebruik.xaml;MainWindow.xaml;StartPage.xaml;
-=======
-D:\Documenten\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\App.xaml
-161423238462
->>>>>>> origin/master
 
 261687907824
 17-626783515
-<<<<<<< HEAD
 BarAutobezit.xaml;BarHaltes.xaml;BarOV0409.xaml;CreditsPage.xaml;DataKaart.xaml;EditPage.xaml;HelpPage.xaml;Kaart.xaml;KaartPage.xaml;KaartWindow.xaml;LineHaltes.xaml;LineAutobezit.xaml;LineOV0409.xaml;MainPage.xaml;MainApp.xaml;LineOVgebruik.xaml;BarOVgebruik.xaml;MainWindow.xaml;
-=======
-BarAutobezit.xaml;BarHaltes.xaml;CreditsPage.xaml;DataKaart.xaml;EditPage.xaml;HelpPage.xaml;Kaart.xaml;KaartPage.xaml;KaartWindow.xaml;LineHaltes.xaml;LineAutobezit.xaml;MainPage.xaml;MainApp.xaml;LineOVgebruik.xaml;BarOVgebruik.xaml;MainWindow.xaml;
->>>>>>> acd1f2b715620bc17409f1fac434d5384d5fa3b9
->>>>>>> origin/master
 
 False
 

@@ -64,15 +64,6 @@ namespace WpfApplication1
             {
                 Main.Content = new BarHaltes();
             }
-            else if ((checkBox.IsChecked == false) && (OVgebruik0409.IsChecked == true))
-            {
-                Main.Content = new LineOV0409();
-            }
-
-            else if ((checkBox.IsChecked == true) && (OVgebruik0409.IsChecked == true))
-            {
-                Main.Content = new BarOV0409();
-            }
 
             else if ((checkBox.IsChecked == false) && (OVgebruik0409.IsChecked == true))
             {
