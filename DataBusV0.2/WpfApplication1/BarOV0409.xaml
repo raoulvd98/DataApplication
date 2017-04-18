@@ -6,11 +6,18 @@
       xmlns:local="clr-namespace:WpfApplication1"
       xmlns:chartingToolkit="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit"
       mc:Ignorable="d"
+<<<<<<< HEAD
       Title="BarOV0409" Height="1080" Width="1920">
 
     <!-- Aanmaken Staafdiagram OV2004-2009-->
     <Grid>
         <chartingToolkit:Chart  Name="BARov0409" Title="OV gebruik 2004 - 2009" Height="580" Width="1200" Margin="604,116,116,384" Background="White">
+=======
+      Title="BarOV0409" Height="1920" Width="1080">
+
+    <Grid>
+        <chartingToolkit:Chart  Name="BARov0409" Title="OV gebruik 2004 - 2009" Height="580" Margin="10,125,0,1215" Background="White">
+>>>>>>> origin/master
             <chartingToolkit:BarSeries x:Name="BARov" DependentValuePath="Value"
             IndependentValuePath="Key" ItemsSource="{Binding}"
             IsSelectionEnabled="True" Margin="0,0,1.4,0" Title="OV gebeuik 2004 - 2009 Met Auto"/>

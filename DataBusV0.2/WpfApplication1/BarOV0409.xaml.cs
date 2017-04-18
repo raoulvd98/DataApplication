@@ -28,11 +28,14 @@ namespace WpfApplication1
             InitializeComponent();
             showChart();
         }
+<<<<<<< HEAD
 
         /// <summary>
         /// Connectie met database. Database openen, uitlezen en weergeven.
         /// </summary>
 
+=======
+>>>>>>> origin/master
         private void showChart()
         {
             MySqlConnection connection = new MySqlConnection(((MainWindow)System.Windows.Application.Current.MainWindow).Connection());
@@ -57,4 +60,8 @@ namespace WpfApplication1
             BARovTwee.DataContext = MyValue2;
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/master

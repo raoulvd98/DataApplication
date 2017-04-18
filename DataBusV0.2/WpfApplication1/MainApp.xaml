@@ -13,7 +13,18 @@
     </Window.Background>
 
     <Grid>
+<<<<<<< HEAD
         <Frame x:Name="Main"/>
+=======
+        <Button x:Name="button" Content="      Filter" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" Width="104" Foreground="White" Click="button_Click"/>
+            <Frame x:Name="Main"/>
+            <CheckBox x:Name="checkBox" Content="BarChart" HorizontalAlignment="Left" Margin="25,100,0,0" VerticalAlignment="Top" Background="White" Foreground="White"/>
+            <RadioButton x:Name="OVgebruik" Content="OVgebruik" HorizontalAlignment="Left" Margin="25,160,0,0" VerticalAlignment="Top" Foreground="White" />
+            <RadioButton x:Name="Autobezit" Content="Autobezit" HorizontalAlignment="Left" Margin="25,140,0,0" VerticalAlignment="Top" Foreground="White"/>
+            <RadioButton x:Name="Haltes" Content="Haltes" HorizontalAlignment="Left" Margin="25,120,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Button x:Name="button1" Content="Main Menu" HorizontalAlignment="Left" Margin="130,30,0,0" VerticalAlignment="Top" Width="104" Click="button1_Click"/>
+        <RadioButton x:Name="OVgebruik0409" Content="OVgebruik2004-2009" HorizontalAlignment="Left" Margin="25,180,0,0" VerticalAlignment="Top" Foreground="White"/>
+>>>>>>> origin/master
 
         <!-- Aanmaken radiobuttons en checkbox -->
         <CheckBox x:Name="checkBox" Content="Staafdiagram" HorizontalAlignment="Left" Margin="76,200,0,0" VerticalAlignment="Top" Background="White" Foreground="White">
