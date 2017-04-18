@@ -20,10 +20,10 @@
 
 
             <Button x:Name="BackToMenubutton" Margin="78,758,1532,208" Width="Auto" Click="BackToMenuButton_Click">
-                <TextBlock Text="Back To Menu" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Text="Hoofdmenu" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Button>
             <Button x:Name="Exitbutton" Margin="78,898,1532,68" Width="Auto" RenderTransformOrigin="0.5,0.5" Click="ExitButton_Click">
-                <TextBlock Text="Exit" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Text="Afsluiten" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Button>
             <Button x:Name="PLUS" HorizontalAlignment="Left" Margin="393,336,0,0" VerticalAlignment="Top" Width="310" Height="114" Click="PLUS1">
                 <TextBlock Text="Plus 1 Halte" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>

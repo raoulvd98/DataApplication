@@ -23,10 +23,10 @@
         <TextBlock x:Name="Jim"         Text="Jim Stam     Programmer/Designer"                 Margin="1197,958,190,81" Foreground="White" FontFamily="Times New Roman" FontWeight="UltraBold" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" Width="533"/>
 
         <Button x:Name="BackToMenubutton" Margin="78,758,1532,208" Width="Auto" Click="BackToMenuButton_Click">
-            <TextBlock Text="Back To Menu" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock Text="Hoofdmenu" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Button>
         <Button x:Name="Exitbutton" Margin="78,898,1532,68" Width="Auto" RenderTransformOrigin="0.5,0.5" Click="ExitButton_Click">
-            <TextBlock Text="Exit" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock Text="Afsluiten" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Button>
         <Frame x:Name="Main"/>
     </Grid>

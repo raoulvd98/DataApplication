@@ -75,8 +75,6 @@
       <DependentUpon>EditPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="HelpPage.xaml.cs" />
-    <Compile Include="HelpPage2.xaml.cs" />
-    <Compile Include="HelpPage3.xaml.cs" />
     <Compile Include="Kaart.xaml.cs">
       <DependentUpon>Kaart.xaml</DependentUpon>
     </Compile>
@@ -125,14 +123,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="HelpPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="HelpPage2.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="HelpPage3.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
