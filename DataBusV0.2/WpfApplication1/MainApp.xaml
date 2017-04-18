@@ -11,51 +11,52 @@
     <Window.Background>
         <ImageBrush ImageSource="Rotterdam-2.jpg"></ImageBrush>
     </Window.Background>
+    <Viewbox StretchDirection="Both" Stretch="Uniform">
+        <Grid>
+            <Frame x:Name="Main"/>
 
-    <Grid>
-        <Frame x:Name="Main"/>
+            <!-- Aanmaken radiobuttons en checkbox -->
+            <CheckBox x:Name="checkBox" Content="Staafdiagram" HorizontalAlignment="Left" Margin="76,200,0,0" VerticalAlignment="Top" Background="White" Foreground="White">
+                <CheckBox.LayoutTransform>
+                    <ScaleTransform ScaleX="2.5" ScaleY="2.5"></ScaleTransform>
+                </CheckBox.LayoutTransform>
+            </CheckBox>
 
-        <!-- Aanmaken radiobuttons en checkbox -->
-        <CheckBox x:Name="checkBox" Content="Staafdiagram" HorizontalAlignment="Left" Margin="76,200,0,0" VerticalAlignment="Top" Background="White" Foreground="White">
-            <CheckBox.LayoutTransform>
-                <ScaleTransform ScaleX="2.5" ScaleY="2.5"></ScaleTransform>
-            </CheckBox.LayoutTransform>
-        </CheckBox>
+            <RadioButton x:Name="Haltes" Content="Haltes" HorizontalAlignment="Left" Margin="78,250,0,0" VerticalAlignment="Top" Foreground="White">
+                <RadioButton.LayoutTransform>
+                    <ScaleTransform ScaleX="2.5" ScaleY="2.5"></ScaleTransform>
+                </RadioButton.LayoutTransform>
+            </RadioButton>
 
-        <RadioButton x:Name="Haltes" Content="Haltes" HorizontalAlignment="Left" Margin="78,250,0,0" VerticalAlignment="Top" Foreground="White">
-            <RadioButton.LayoutTransform>
-                <ScaleTransform ScaleX="2.5" ScaleY="2.5"></ScaleTransform>
-            </RadioButton.LayoutTransform>
-        </RadioButton>
+            <RadioButton x:Name="Autobezit" Content="Autobezit" HorizontalAlignment="Left" Margin="78,300,0,0" VerticalAlignment="Top" Foreground="White">
+                <RadioButton.LayoutTransform>
+                    <ScaleTransform ScaleX="2.5" ScaleY="2.5"></ScaleTransform>
+                </RadioButton.LayoutTransform>
+            </RadioButton>
 
-        <RadioButton x:Name="Autobezit" Content="Autobezit" HorizontalAlignment="Left" Margin="78,300,0,0" VerticalAlignment="Top" Foreground="White">
-            <RadioButton.LayoutTransform>
-                <ScaleTransform ScaleX="2.5" ScaleY="2.5"></ScaleTransform>
-            </RadioButton.LayoutTransform>
-        </RadioButton>
+            <RadioButton x:Name="OVgebruik" Content="OV gebruik" HorizontalAlignment="Left" Margin="78,350,0,0" VerticalAlignment="Top" Foreground="White">
+                <RadioButton.LayoutTransform>
+                    <ScaleTransform ScaleX="2.5" ScaleY="2.5"></ScaleTransform>
+                </RadioButton.LayoutTransform>
+            </RadioButton>
 
-        <RadioButton x:Name="OVgebruik" Content="OV gebruik" HorizontalAlignment="Left" Margin="78,350,0,0" VerticalAlignment="Top" Foreground="White">
-            <RadioButton.LayoutTransform>
-                <ScaleTransform ScaleX="2.5" ScaleY="2.5"></ScaleTransform>
-            </RadioButton.LayoutTransform>
-        </RadioButton>
+            <RadioButton x:Name="OVgebruik0409" Content="OV gebruik 2004-2009" HorizontalAlignment="Left" Margin="78,400,0,0" VerticalAlignment="Top" Foreground="White">
+                <RadioButton.LayoutTransform>
+                    <ScaleTransform ScaleX="2.5" ScaleY="2.5"></ScaleTransform>
+                </RadioButton.LayoutTransform>
+            </RadioButton>
 
-        <RadioButton x:Name="OVgebruik0409" Content="OV gebruik 2004-2009" HorizontalAlignment="Left" Margin="78,400,0,0" VerticalAlignment="Top" Foreground="White">
-            <RadioButton.LayoutTransform>
-                <ScaleTransform ScaleX="2.5" ScaleY="2.5"></ScaleTransform>
-            </RadioButton.LayoutTransform>
-        </RadioButton>
+            <Button x:Name="button" HorizontalAlignment="Left" Margin="70,70,0,0" Height="114" Width="315" VerticalAlignment="Top" Click="button_Click">
+                <TextBlock x:Name="Filter" Text="Filter" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Button>
 
-        <Button x:Name="button" HorizontalAlignment="Left" Margin="70,70,0,0" Height="114" Width="315" VerticalAlignment="Top" Click="button_Click">
-            <TextBlock x:Name="Filter" Text="Filter" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Button>
+            <Button x:Name="button1" HorizontalAlignment="Left" Margin="78,758,1532,208" Height="113" Width="315" VerticalAlignment="Top" Click="button1_Click">
+                <TextBlock x:Name="Main_Menu" Text="Hoofdmenu" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Button>
 
-        <Button x:Name="button1" HorizontalAlignment="Left" Margin="78,758,1532,208" Height="113" Width="315" VerticalAlignment="Top" Click="button1_Click">
-            <TextBlock x:Name="Main_Menu" Text="Hoofdmenu" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Button>
-
-        <Button x:Name="Exitbutton" HorizontalAlignment="Left" Margin="78,898,0,0" Height="113" Width="315" VerticalAlignment="Top" Click="ExitButton_Click">
-            <TextBlock x:Name="Exit" Text="Afsluiten" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Button>
-    </Grid>
+            <Button x:Name="Exitbutton" HorizontalAlignment="Left" Margin="78,898,0,0" Height="113" Width="315" VerticalAlignment="Top" Click="ExitButton_Click">
+                <TextBlock x:Name="Exit" Text="Afsluiten" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Button>
+        </Grid>
+    </Viewbox>
 </Window>

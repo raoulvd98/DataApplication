@@ -24,7 +24,7 @@
                 <TextBlock Text="Credits" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Button>
             <Button x:Name="Helpbutton" Margin="414,758,1196,208" Width="Auto" Click="HelpButton_Click">
-                <TextBlock Text="Help" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Text="Hulp" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Button>
             <Button x:Name="Exitbutton" Margin="760,898,850.2,68" Width="Auto" Click="ExitButton_Click">
                 <TextBlock Text="Afsluiten" Margin="0, 0, 0, 0" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
