@@ -1,4 +1,5 @@
 ﻿
+<<<<<<< HEAD
 F\\fileserver\homedir$\raoul\Desktop\DataApplication-Project-3\DataBusV0.2\WpfApplication1\App.xaml;;
 F\\fileserver\homedir$\raoul\Desktop\DataApplication-Project-3\DataBusV0.2\WpfApplication1\BarAutobezit.xaml;;
 F\\fileserver\homedir$\raoul\Desktop\DataApplication-Project-3\DataBusV0.2\WpfApplication1\BarHaltes.xaml;;
@@ -21,4 +22,23 @@ F\\fileserver\homedir$\raoul\Desktop\DataApplication-Project-3\DataBusV0.2\WpfAp
 F\\fileserver\homedir$\raoul\Desktop\DataApplication-Project-3\DataBusV0.2\WpfApplication1\BarOVgebruik.xaml;;
 F\\fileserver\homedir$\raoul\Desktop\DataApplication-Project-3\DataBusV0.2\WpfApplication1\MainWindow.xaml;;
 F\\fileserver\homedir$\raoul\Desktop\DataApplication-Project-3\DataBusV0.2\WpfApplication1\StartPage.xaml;;
+=======
+FD:\Documenten\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\App.xaml;;
+FD:\Documenten\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\BarAutobezit.xaml;;
+FD:\Documenten\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\BarHaltes.xaml;;
+FD:\Documenten\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\CreditsPage.xaml;;
+FD:\Documenten\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\DataKaart.xaml;;
+FD:\Documenten\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\EditPage.xaml;;
+FD:\Documenten\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\HelpPage.xaml;;
+FD:\Documenten\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\Kaart.xaml;;
+FD:\Documenten\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\KaartPage.xaml;;
+FD:\Documenten\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\KaartWindow.xaml;;
+FD:\Documenten\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\LineHaltes.xaml;;
+FD:\Documenten\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\LineAutobezit.xaml;;
+FD:\Documenten\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\MainPage.xaml;;
+FD:\Documenten\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\MainApp.xaml;;
+FD:\Documenten\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\LineOVgebruik.xaml;;
+FD:\Documenten\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\BarOVgebruik.xaml;;
+FD:\Documenten\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\MainWindow.xaml;;
+>>>>>>> acd1f2b715620bc17409f1fac434d5384d5fa3b9
 

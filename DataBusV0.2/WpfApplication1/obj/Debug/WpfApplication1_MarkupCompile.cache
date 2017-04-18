@@ -9,12 +9,21 @@ WpfApplication1
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 \\fileserver\homedir$\raoul\Desktop\DataApplication-Project-3\DataBusV0.2\WpfApplication1\App.xaml
 21589394794
 
 25-1666718440
 17714260390
 BarAutobezit.xaml;BarHaltes.xaml;BarOV0409.xaml;CreditsPage.xaml;DataKaart.xaml;EditPage.xaml;HelpPage.xaml;HelpPage2.xaml;HelpPage3.xaml;Kaart.xaml;KaartPage.xaml;KaartWindow.xaml;LineHaltes.xaml;LineAutobezit.xaml;LineOV0409.xaml;MainPage.xaml;MainApp.xaml;LineOVgebruik.xaml;BarOVgebruik.xaml;MainWindow.xaml;StartPage.xaml;
+=======
+D:\Documenten\GitHub\DataApplication-Project-3\DataBusV0.2\WpfApplication1\App.xaml
+161423238462
+
+20-142472697
+17-626783515
+BarAutobezit.xaml;BarHaltes.xaml;CreditsPage.xaml;DataKaart.xaml;EditPage.xaml;HelpPage.xaml;Kaart.xaml;KaartPage.xaml;KaartWindow.xaml;LineHaltes.xaml;LineAutobezit.xaml;MainPage.xaml;MainApp.xaml;LineOVgebruik.xaml;BarOVgebruik.xaml;MainWindow.xaml;
+>>>>>>> acd1f2b715620bc17409f1fac434d5384d5fa3b9
 
 False
 

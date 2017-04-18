@@ -23,11 +23,8 @@ namespace WpfApplication1
 
         public KaartPage()
         {
-            InitializeComponent();     
-               
+            InitializeComponent();
         }
-
-
 
         private void CharloisBut(object sender, RoutedEventArgs e)
         {

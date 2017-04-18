@@ -78,8 +78,6 @@
       <DependentUpon>EditPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="HelpPage.xaml.cs" />
-    <Compile Include="HelpPage2.xaml.cs" />
-    <Compile Include="HelpPage3.xaml.cs" />
     <Compile Include="Kaart.xaml.cs">
       <DependentUpon>Kaart.xaml</DependentUpon>
     </Compile>
@@ -107,9 +105,6 @@
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="StartPage.xaml.cs">
-      <DependentUpon>StartPage.xaml</DependentUpon>
-    </Compile>
     <Page Include="BarAutobezit.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -135,14 +130,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="HelpPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="HelpPage2.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="HelpPage3.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -201,10 +188,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="StartPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -236,6 +219,9 @@
   <ItemGroup>
     <Resource Include="Kaart_wijken_Rotterdam.png" />
     <Resource Include="Rotterdam-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="LogoDataBus.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

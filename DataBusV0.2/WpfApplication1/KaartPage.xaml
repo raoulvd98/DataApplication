@@ -12,7 +12,7 @@
     </Page.Background>
     <Viewbox StretchDirection="Both" Stretch="Uniform">
         <Grid>
-            <TextBlock x:Name="Titlebar" Text="Kaart" Margin="78,108,1428,834" Foreground="White" FontFamily="Times New Roman" FontSize="120" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock x:Name="Titlebar" Text="Kaart" Margin="78,108,1608,834" Foreground="White" FontFamily="Times New Roman" FontSize="120" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
 
 
