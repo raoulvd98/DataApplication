@@ -31,7 +31,7 @@ namespace WpfApplication1
 
         public string Connection()
         {
-            string ConnectionString = "Server=localhost;Database=project;Uid=root;Pwd=080396-jeroen";
+            string ConnectionString = "Server=localhost;Database=project;Uid=root;Pwd=Hallo";
 
             return ConnectionString;
         }
